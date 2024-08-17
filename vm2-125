@@ -1,0 +1,1102 @@
+btrfs/125        [22:11:43][ 4146.112640] run fstests btrfs/125 at 2024-07-29 22:11:43
+[ 4147.063830] BTRFS: device fsid 38300012-cb23-4389-84d3-b62463349617 devid 1 transid 127 /dev/vda (254:0) scanned by mount (18434)
+[ 4147.068362] BTRFS info (device vda): first mount of filesystem 38300012-cb23-4389-84d3-b62463349617
+[ 4147.070867] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4147.072833] BTRFS info (device vda): using free-space-tree
+[ 4148.375358] BTRFS info (device vda): last unmount of filesystem 38300012-cb23-4389-84d3-b62463349617
+[ 4148.924690] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 1 transid 6 /dev/vdb (254:16) scanned by mkfs.btrfs (18673)
+[ 4148.934323] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 2 transid 6 /dev/vdc (254:32) scanned by mkfs.btrfs (18673)
+[ 4148.937941] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 3 transid 6 /dev/vdd (254:48) scanned by mkfs.btrfs (18673)
+[ 4148.967823] BTRFS info (device vdb): first mount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4148.970096] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4148.971991] BTRFS info (device vdb): using free-space-tree
+[ 4148.987289] BTRFS info (device vdb): checking UUID tree
+[ 4149.294722] BTRFS info (device vdb): last unmount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4149.369353] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 2 transid 7 /dev/vdc (254:32) scanned by mount (18705)
+[ 4149.372587] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 1 transid 7 /dev/vdb (254:16) scanned by mount (18705)
+[ 4149.382592] BTRFS info (device vdb): first mount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4149.384752] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4149.386750] BTRFS info (device vdb): using free-space-tree
+[ 4149.393317] BTRFS warning (device vdb): devid 3 uuid 9cd15782-fbec-44a4-8b5d-ca7d88d744cb is missing
+[ 4149.397490] BTRFS warning (device vdb): devid 3 uuid 9cd15782-fbec-44a4-8b5d-ca7d88d744cb is missing
+[ 4151.127436] BTRFS info (device vdb): last unmount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4151.443887] BTRFS info (device vdb): first mount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4151.446482] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4151.448578] BTRFS info (device vdb): using free-space-tree
+[ 4151.507373] BTRFS info (device vdb): balance: start -d -m -s
+[ 4151.509256] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4151.726824] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4151.731550] btrfs_repair_io_failure: 26 callbacks suppressed
+[ 4151.731564] BTRFS info (device vdb): read error corrected: ino 0 off 39043072 (dev /dev/vdd sector 18656)
+[ 4151.735497] BTRFS info (device vdb): read error corrected: ino 0 off 39047168 (dev /dev/vdd sector 18664)
+[ 4151.737938] BTRFS info (device vdb): read error corrected: ino 0 off 39051264 (dev /dev/vdd sector 18672)
+[ 4151.740369] BTRFS info (device vdb): read error corrected: ino 0 off 39055360 (dev /dev/vdd sector 18680)
+[ 4152.098323] BTRFS error (device vdb): bad tree block start, mirror 1 want 39059456 have 30539776
+[ 4152.102263] BTRFS info (device vdb): read error corrected: ino 0 off 39059456 (dev /dev/vdd sector 18688)
+[ 4152.104729] BTRFS info (device vdb): read error corrected: ino 0 off 39063552 (dev /dev/vdd sector 18696)
+[ 4152.107226] BTRFS info (device vdb): read error corrected: ino 0 off 39067648 (dev /dev/vdd sector 18704)
+[ 4152.109807] BTRFS info (device vdb): read error corrected: ino 0 off 39071744 (dev /dev/vdd sector 18712)
+[ 4152.395810] BTRFS error (device vdb): bad tree block start, mirror 1 want 39075840 have 30556160
+[ 4152.399788] BTRFS info (device vdb): read error corrected: ino 0 off 39075840 (dev /dev/vdd sector 18720)
+[ 4152.402618] BTRFS info (device vdb): read error corrected: ino 0 off 39079936 (dev /dev/vdd sector 18728)
+[ 4152.776956] BTRFS error (device vdb): bad tree block start, mirror 1 want 39092224 have 30572544
+[ 4153.061573] BTRFS error (device vdb): bad tree block start, mirror 1 want 39108608 have 30588928
+[ 4154.745453] BTRFS info (device vdb): found 1 extents, stage: move data extents
+[ 4154.907648] BTRFS info (device vdb): found 1 extents, stage: update data pointers
+[ 4154.928595] BTRFS info (device vdb): relocating block group 217710592 flags data|raid5
+[ 4154.991041] BTRFS info (device vdb): found 1 extents, stage: move data extents
+[ 4155.009282] BTRFS info (device vdb): found 1 extents, stage: update data pointers
+[ 4155.026464] BTRFS info (device vdb): relocating block group 38797312 flags metadata|raid5
+[ 4155.062260] BTRFS info (device vdb): found 13 extents, stage: move data extents
+[ 4155.081925] BTRFS info (device vdb): relocating block group 22020096 flags system|raid5
+[ 4155.098504] BTRFS info (device vdb): found 1 extents, stage: move data extents
+[ 4155.113925] BTRFS info (device vdb): balance: ended with status: 0
+[ 4156.393396] BTRFS info (device vdb): last unmount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4156.492910] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 2 transid 40 /dev/vdc (254:32) scanned by mount (18757)
+[ 4156.496503] BTRFS: device fsid e251ee7c-7acb-405a-b59f-07c278066ee0 devid 3 transid 40 /dev/vdd (254:48) scanned by mount (18757)
+[ 4156.501428] BTRFS info (device vdc): first mount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4156.503990] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 4156.506412] BTRFS info (device vdc): using free-space-tree
+[ 4156.519009] BTRFS warning (device vdc): devid 1 uuid d999218b-83ad-470a-ac0b-81675b9ae6e0 is missing
+[ 4156.522407] BTRFS warning (device vdc): devid 1 uuid d999218b-83ad-470a-ac0b-81675b9ae6e0 is missing
+[ 4158.988149] BTRFS info (device vdc): last unmount of filesystem e251ee7c-7acb-405a-b59f-07c278066ee0
+[ 4159.265249] BTRFS: device fsid 38300012-cb23-4389-84d3-b62463349617 devid 1 transid 127 /dev/vda (254:0) scanned by mount (18778)
+[ 4159.270112] BTRFS info (device vda): first mount of filesystem 38300012-cb23-4389-84d3-b62463349617
+[ 4159.272601] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4159.274822] BTRFS info (device vda): using free-space-tree
+[ 4159.481280] BTRFS info (device vda): last unmount of filesystem 38300012-cb23-4389-84d3-b62463349617
+ [22:11:57] 14s
+btrfs/125        [11:16:47][ 4267.194379] run fstests btrfs/125 at 2024-08-06 11:16:47
+[ 4268.151193] BTRFS: device fsid 964bd657-64e2-4c4c-8a0b-1d00ed495f6d devid 1 transid 131 /dev/vda (254:0) scanned by mount (20576)
+[ 4268.156283] BTRFS info (device vda): first mount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+[ 4268.159032] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4268.161407] BTRFS info (device vda): using free-space-tree
+[ 4269.482240] BTRFS info (device vda): last unmount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+[ 4270.046321] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (20815)
+[ 4270.049538] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (20815)
+[ 4270.052893] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (20815)
+[ 4270.081534] BTRFS info (device vdb): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4270.083970] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4270.085966] BTRFS info (device vdb): using free-space-tree
+[ 4270.109368] BTRFS info (device vdb): checking UUID tree
+[ 4270.424261] BTRFS info (device vdb): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4270.498198] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 2 transid 9 /dev/vdc (254:32) scanned by mount (20847)
+[ 4270.501351] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 1 transid 9 /dev/vdb (254:16) scanned by mount (20847)
+[ 4270.506193] BTRFS info (device vdb): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4270.508413] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4270.511031] BTRFS info (device vdb): using free-space-tree
+[ 4270.524335] BTRFS warning (device vdb): devid 3 uuid 343071d0-9253-4591-986a-2489e0c8f156 is missing
+[ 4270.527584] BTRFS warning (device vdb): devid 3 uuid 343071d0-9253-4591-986a-2489e0c8f156 is missing
+[ 4272.280692] BTRFS info (device vdb): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4272.579558] BTRFS info (device vdb): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4272.581887] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4272.584011] BTRFS info (device vdb): using free-space-tree
+[ 4272.635867] BTRFS info (device vdb): balance: start -d -m -s
+[ 4272.637829] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4272.863070] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.867876] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.871981] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.875256] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.878598] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.881743] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.974105] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.977310] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.980811] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.984058] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4273.214702] BTRFS info (device vdb): read error corrected: ino 0 off 39108608 (dev /dev/vdd sector 18784)
+[ 4273.217628] BTRFS info (device vdb): read error corrected: ino 0 off 39112704 (dev /dev/vdd sector 18792)
+[ 4273.220593] BTRFS info (device vdb): read error corrected: ino 0 off 39116800 (dev /dev/vdd sector 18800)
+[ 4273.226723] BTRFS info (device vdb): read error corrected: ino 0 off 39120896 (dev /dev/vdd sector 18808)
+[ 4273.349210] BTRFS info (device vdb): balance: ended with status: -5
+[ 4273.899496] BTRFS info (device vdb): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4273.984055] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 2 transid 14 /dev/vdc (254:32) scanned by mount (20899)
+[ 4273.987615] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 3 transid 14 /dev/vdd (254:48) scanned by mount (20899)
+[ 4273.992943] BTRFS info (device vdc): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4273.995557] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 4273.997820] BTRFS info (device vdc): using free-space-tree
+[ 4274.005288] BTRFS warning (device vdc): devid 1 uuid ca29c090-752a-480d-b488-9f5e35ce0d8d is missing
+[ 4274.010383] BTRFS warning (device vdc): devid 1 uuid ca29c090-752a-480d-b488-9f5e35ce0d8d is missing
+[ 4274.411876] ==================================================================
+[ 4274.413937] BUG: KASAN: slab-use-after-free in btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937] Read of size 4 at addr ffff8881117cec28 by task kworker/u16:2/45
+[ 4274.413937] 
+[ 4274.413937] CPU: 1 UID: 0 PID: 45 Comm: kworker/u16:2 Not tainted 6.11.0-rc2-next-20240805-default+ #76
+[ 4274.413937] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4274.413937] Workqueue: btrfs-endio btrfs_end_bio_work [btrfs]
+[ 4274.413937] Call Trace:
+[ 4274.413937]  <TASK>
+[ 4274.413937]  dump_stack_lvl+0x61/0x80
+[ 4274.413937]  print_address_description.constprop.0+0x5e/0x2f0
+[ 4274.413937]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  print_report+0x118/0x216
+[ 4274.413937]  ? __virt_addr_valid+0x19b/0x3a0
+[ 4274.413937]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  kasan_report+0x11d/0x1f0
+[ 4274.413937]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  ? btrfs_end_repair_bio+0x8a0/0x8a0 [btrfs]
+[ 4274.413937]  ? rcu_is_watching+0xe/0xb0
+[ 4274.413937]  process_one_work+0xce0/0x12a0
+[ 4274.413937]  ? pwq_dec_nr_in_flight+0x540/0x540
+[ 4274.413937]  ? assign_work+0x168/0x240
+[ 4274.413937]  worker_thread+0x717/0x1250
+[ 4274.413937]  ? process_one_work+0x12a0/0x12a0
+[ 4274.413937]  kthread+0x2e3/0x3c0
+[ 4274.413937]  ? _raw_spin_unlock_irq+0x24/0x50
+[ 4274.413937]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4274.413937]  ret_from_fork+0x2d/0x70
+[ 4274.413937]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4274.413937]  ret_from_fork_asm+0x11/0x20
+[ 4274.413937]  </TASK>
+[ 4274.413937] 
+[ 4274.413937] Allocated by task 20917:
+[ 4274.413937]  kasan_save_stack+0x37/0x60
+[ 4274.413937]  kasan_save_track+0x10/0x30
+[ 4274.413937]  __kasan_slab_alloc+0x7d/0x80
+[ 4274.413937]  kmem_cache_alloc_noprof+0x16e/0x3e0
+[ 4274.413937]  mempool_alloc_noprof+0x12e/0x310
+[ 4274.413937]  bio_alloc_bioset+0x3f0/0x7a0
+[ 4274.413937]  btrfs_bio_alloc+0x2e/0x50 [btrfs]
+[ 4274.413937]  submit_extent_page+0x4d1/0xdb0 [btrfs]
+[ 4274.413937]  btrfs_do_readpage+0x8b4/0x12a0 [btrfs]
+[ 4274.413937]  btrfs_readahead+0x29a/0x430 [btrfs]
+[ 4274.413937]  read_pages+0x1a7/0xc60
+[ 4274.413937]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4274.413937]  filemap_get_pages+0x629/0xa20
+[ 4274.413937]  filemap_read+0x335/0xbf0
+[ 4274.413937]  vfs_read+0x790/0xcb0
+[ 4274.413937]  ksys_read+0xfd/0x1d0
+[ 4274.413937]  do_syscall_64+0x6d/0x140
+[ 4274.413937]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4274.413937] 
+[ 4274.413937] Freed by task 20917:
+[ 4274.413937]  kasan_save_stack+0x37/0x60
+[ 4274.413937]  kasan_save_track+0x10/0x30
+[ 4274.413937]  kasan_save_free_info+0x37/0x50
+[ 4274.413937]  __kasan_slab_free+0x4b/0x60
+[ 4274.413937]  kmem_cache_free+0x214/0x5d0
+[ 4274.413937]  bio_free+0xed/0x180
+[ 4274.413937]  end_bbio_data_read+0x1cc/0x580 [btrfs]
+[ 4274.413937]  btrfs_submit_chunk+0x98d/0x1880 [btrfs]
+[ 4274.413937]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4274.413937]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4274.413937]  submit_extent_page+0x3ea/0xdb0 [btrfs]
+[ 4274.413937]  btrfs_do_readpage+0x8b4/0x12a0 [btrfs]
+[ 4274.413937]  btrfs_readahead+0x29a/0x430 [btrfs]
+[ 4274.413937]  read_pages+0x1a7/0xc60
+[ 4274.413937]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4274.413937]  filemap_get_pages+0x629/0xa20
+[ 4274.413937]  filemap_read+0x335/0xbf0
+[ 4274.413937]  vfs_read+0x790/0xcb0
+[ 4274.413937]  ksys_read+0xfd/0x1d0
+[ 4274.413937]  do_syscall_64+0x6d/0x140
+[ 4274.413937]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4274.413937] 
+[ 4274.413937] The buggy address belongs to the object at ffff8881117ce940
+[ 4274.413937]  which belongs to the cache biovec-max of size 4096
+[ 4274.413937] The buggy address is located 744 bytes inside of
+[ 4274.413937]  freed 4096-byte region [ffff8881117ce940, ffff8881117cf940)
+[ 4274.413937] 
+[ 4274.413937] The buggy address belongs to the physical page:
+[ 4274.413937] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x1117c8
+[ 4274.413937] head: order:3 mapcount:0 entire_mapcount:0 nr_pages_mapped:0 pincount:0
+[ 4274.413937] flags: 0x4500000000040(head|section=34|zone=2)
+[ 4274.413937] page_type: 0xfdffffff(slab)
+[ 4274.413937] raw: 0004500000000040 ffff888100dd0e40 ffff88813f029a10 ffff888100dd2470
+[ 4274.413937] raw: 0000000000000000 0000000000070007 00000001fdffffff 0000000000000000
+[ 4274.413937] head: 0004500000000040 ffff888100dd0e40 ffff88813f029a10 ffff888100dd2470
+[ 4274.413937] head: 0000000000000000 0000000000070007 00000001fdffffff 0000000000000000
+[ 4274.413937] head: 0004500000000003 ffff88813f25f201 ffffffffffffffff 0000000000000000
+[ 4274.413937] head: 0000000000000008 0000000000000000 00000000ffffffff 0000000000000000
+[ 4274.413937] page dumped because: kasan: bad access detected
+[ 4274.413937] 
+[ 4274.413937] Memory state around the buggy address:
+[ 4274.413937]  ffff8881117ceb00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937]  ffff8881117ceb80: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937] >ffff8881117cec00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937]                                   ^
+[ 4274.413937]  ffff8881117cec80: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937]  ffff8881117ced00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937] ==================================================================
+[ 4274.571471] Disabling lock debugging due to kernel taint
+[ 4274.787173] BTRFS info (device vdc): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4274.986963] BTRFS: device fsid 964bd657-64e2-4c4c-8a0b-1d00ed495f6d devid 1 transid 131 /dev/vda (254:0) scanned by mount (20920)
+[ 4274.991728] BTRFS info (device vda): first mount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+[ 4275.001533] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4275.004268] BTRFS info (device vda): using free-space-tree
+[ 4275.162525] BTRFS info (device vda): last unmount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+_check_dmesg: something found in dmesg (see /tmp/fstests/results//btrfs/125.dmesg)
+[ 4267.194379] run fstests btrfs/125 at 2024-08-06 11:16:47
+[ 4268.151193] BTRFS: device fsid 964bd657-64e2-4c4c-8a0b-1d00ed495f6d devid 1 transid 131 /dev/vda (254:0) scanned by mount (20576)
+[ 4268.156283] BTRFS info (device vda): first mount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+[ 4268.159032] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4268.161407] BTRFS info (device vda): using free-space-tree
+[ 4269.482240] BTRFS info (device vda): last unmount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+[ 4270.046321] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (20815)
+[ 4270.049538] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (20815)
+[ 4270.052893] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (20815)
+[ 4270.081534] BTRFS info (device vdb): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4270.083970] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4270.085966] BTRFS info (device vdb): using free-space-tree
+[ 4270.109368] BTRFS info (device vdb): checking UUID tree
+[ 4270.424261] BTRFS info (device vdb): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4270.498198] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 2 transid 9 /dev/vdc (254:32) scanned by mount (20847)
+[ 4270.501351] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 1 transid 9 /dev/vdb (254:16) scanned by mount (20847)
+[ 4270.506193] BTRFS info (device vdb): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4270.508413] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4270.511031] BTRFS info (device vdb): using free-space-tree
+[ 4270.524335] BTRFS warning (device vdb): devid 3 uuid 343071d0-9253-4591-986a-2489e0c8f156 is missing
+[ 4270.527584] BTRFS warning (device vdb): devid 3 uuid 343071d0-9253-4591-986a-2489e0c8f156 is missing
+[ 4272.280692] BTRFS info (device vdb): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4272.579558] BTRFS info (device vdb): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4272.581887] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4272.584011] BTRFS info (device vdb): using free-space-tree
+[ 4272.635867] BTRFS info (device vdb): balance: start -d -m -s
+[ 4272.637829] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4272.863070] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.867876] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.871981] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.875256] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.878598] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.881743] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.974105] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.977310] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4272.980811] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4272.984058] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4273.214702] BTRFS info (device vdb): read error corrected: ino 0 off 39108608 (dev /dev/vdd sector 18784)
+[ 4273.217628] BTRFS info (device vdb): read error corrected: ino 0 off 39112704 (dev /dev/vdd sector 18792)
+[ 4273.220593] BTRFS info (device vdb): read error corrected: ino 0 off 39116800 (dev /dev/vdd sector 18800)
+[ 4273.226723] BTRFS info (device vdb): read error corrected: ino 0 off 39120896 (dev /dev/vdd sector 18808)
+[ 4273.349210] BTRFS info (device vdb): balance: ended with status: -5
+[ 4273.899496] BTRFS info (device vdb): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4273.984055] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 2 transid 14 /dev/vdc (254:32) scanned by mount (20899)
+[ 4273.987615] BTRFS: device fsid cee6ae65-fe49-4b3f-ad48-218bc914ee4f devid 3 transid 14 /dev/vdd (254:48) scanned by mount (20899)
+[ 4273.992943] BTRFS info (device vdc): first mount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4273.995557] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 4273.997820] BTRFS info (device vdc): using free-space-tree
+[ 4274.005288] BTRFS warning (device vdc): devid 1 uuid ca29c090-752a-480d-b488-9f5e35ce0d8d is missing
+[ 4274.010383] BTRFS warning (device vdc): devid 1 uuid ca29c090-752a-480d-b488-9f5e35ce0d8d is missing
+[ 4274.411876] ==================================================================
+[ 4274.413937] BUG: KASAN: slab-use-after-free in btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937] Read of size 4 at addr ffff8881117cec28 by task kworker/u16:2/45
+
+[ 4274.413937] CPU: 1 UID: 0 PID: 45 Comm: kworker/u16:2 Not tainted 6.11.0-rc2-next-20240805-default+ #76
+[ 4274.413937] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4274.413937] Workqueue: btrfs-endio btrfs_end_bio_work [btrfs]
+[ 4274.413937] Call Trace:
+[ 4274.413937]  <TASK>
+[ 4274.413937]  dump_stack_lvl+0x61/0x80
+[ 4274.413937]  print_address_description.constprop.0+0x5e/0x2f0
+[ 4274.413937]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  print_report+0x118/0x216
+[ 4274.413937]  ? __virt_addr_valid+0x19b/0x3a0
+[ 4274.413937]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  kasan_report+0x11d/0x1f0
+[ 4274.413937]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4274.413937]  ? btrfs_end_repair_bio+0x8a0/0x8a0 [btrfs]
+[ 4274.413937]  ? rcu_is_watching+0xe/0xb0
+[ 4274.413937]  process_one_work+0xce0/0x12a0
+[ 4274.413937]  ? pwq_dec_nr_in_flight+0x540/0x540
+[ 4274.413937]  ? assign_work+0x168/0x240
+[ 4274.413937]  worker_thread+0x717/0x1250
+[ 4274.413937]  ? process_one_work+0x12a0/0x12a0
+[ 4274.413937]  kthread+0x2e3/0x3c0
+[ 4274.413937]  ? _raw_spin_unlock_irq+0x24/0x50
+[ 4274.413937]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4274.413937]  ret_from_fork+0x2d/0x70
+[ 4274.413937]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4274.413937]  ret_from_fork_asm+0x11/0x20
+[ 4274.413937]  </TASK>
+
+[ 4274.413937] Allocated by task 20917:
+[ 4274.413937]  kasan_save_stack+0x37/0x60
+[ 4274.413937]  kasan_save_track+0x10/0x30
+[ 4274.413937]  __kasan_slab_alloc+0x7d/0x80
+[ 4274.413937]  kmem_cache_alloc_noprof+0x16e/0x3e0
+[ 4274.413937]  mempool_alloc_noprof+0x12e/0x310
+[ 4274.413937]  bio_alloc_bioset+0x3f0/0x7a0
+[ 4274.413937]  btrfs_bio_alloc+0x2e/0x50 [btrfs]
+[ 4274.413937]  submit_extent_page+0x4d1/0xdb0 [btrfs]
+[ 4274.413937]  btrfs_do_readpage+0x8b4/0x12a0 [btrfs]
+[ 4274.413937]  btrfs_readahead+0x29a/0x430 [btrfs]
+[ 4274.413937]  read_pages+0x1a7/0xc60
+[ 4274.413937]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4274.413937]  filemap_get_pages+0x629/0xa20
+[ 4274.413937]  filemap_read+0x335/0xbf0
+[ 4274.413937]  vfs_read+0x790/0xcb0
+[ 4274.413937]  ksys_read+0xfd/0x1d0
+[ 4274.413937]  do_syscall_64+0x6d/0x140
+[ 4274.413937]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+
+[ 4274.413937] Freed by task 20917:
+[ 4274.413937]  kasan_save_stack+0x37/0x60
+[ 4274.413937]  kasan_save_track+0x10/0x30
+[ 4274.413937]  kasan_save_free_info+0x37/0x50
+[ 4274.413937]  __kasan_slab_free+0x4b/0x60
+[ 4274.413937]  kmem_cache_free+0x214/0x5d0
+[ 4274.413937]  bio_free+0xed/0x180
+[ 4274.413937]  end_bbio_data_read+0x1cc/0x580 [btrfs]
+[ 4274.413937]  btrfs_submit_chunk+0x98d/0x1880 [btrfs]
+[ 4274.413937]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4274.413937]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4274.413937]  submit_extent_page+0x3ea/0xdb0 [btrfs]
+[ 4274.413937]  btrfs_do_readpage+0x8b4/0x12a0 [btrfs]
+[ 4274.413937]  btrfs_readahead+0x29a/0x430 [btrfs]
+[ 4274.413937]  read_pages+0x1a7/0xc60
+[ 4274.413937]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4274.413937]  filemap_get_pages+0x629/0xa20
+[ 4274.413937]  filemap_read+0x335/0xbf0
+[ 4274.413937]  vfs_read+0x790/0xcb0
+[ 4274.413937]  ksys_read+0xfd/0x1d0
+[ 4274.413937]  do_syscall_64+0x6d/0x140
+[ 4274.413937]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+
+[ 4274.413937] The buggy address belongs to the object at ffff8881117ce940
+                which belongs to the cache biovec-max of size 4096
+[ 4274.413937] The buggy address is located 744 bytes inside of
+                freed 4096-byte region [ffff8881117ce940, ffff8881117cf940)
+
+[ 4274.413937] The buggy address belongs to the physical page:
+[ 4274.413937] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x1117c8
+[ 4274.413937] head: order:3 mapcount:0 entire_mapcount:0 nr_pages_mapped:0 pincount:0
+[ 4274.413937] flags: 0x4500000000040(head|section=34|zone=2)
+[ 4274.413937] page_type: 0xfdffffff(slab)
+[ 4274.413937] raw: 0004500000000040 ffff888100dd0e40 ffff88813f029a10 ffff888100dd2470
+[ 4274.413937] raw: 0000000000000000 0000000000070007 00000001fdffffff 0000000000000000
+[ 4274.413937] head: 0004500000000040 ffff888100dd0e40 ffff88813f029a10 ffff888100dd2470
+[ 4274.413937] head: 0000000000000000 0000000000070007 00000001fdffffff 0000000000000000
+[ 4274.413937] head: 0004500000000003 ffff88813f25f201 ffffffffffffffff 0000000000000000
+[ 4274.413937] head: 0000000000000008 0000000000000000 00000000ffffffff 0000000000000000
+[ 4274.413937] page dumped because: kasan: bad access detected
+
+[ 4274.413937] Memory state around the buggy address:
+[ 4274.413937]  ffff8881117ceb00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937]  ffff8881117ceb80: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937] >ffff8881117cec00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937]                                   ^
+[ 4274.413937]  ffff8881117cec80: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937]  ffff8881117ced00: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4274.413937] ==================================================================
+[ 4274.571471] Disabling lock debugging due to kernel taint
+[ 4274.787173] BTRFS info (device vdc): last unmount of filesystem cee6ae65-fe49-4b3f-ad48-218bc914ee4f
+[ 4274.986963] BTRFS: device fsid 964bd657-64e2-4c4c-8a0b-1d00ed495f6d devid 1 transid 131 /dev/vda (254:0) scanned by mount (20920)
+[ 4274.991728] BTRFS info (device vda): first mount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+[ 4275.001533] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4275.004268] BTRFS info (device vda): using free-space-tree
+[ 4275.162525] BTRFS info (device vda): last unmount of filesystem 964bd657-64e2-4c4c-8a0b-1d00ed495f6d
+ [11:16:56]9s - output mismatch (see /tmp/fstests/results//btrfs/125.out.bad)
+    --- tests/btrfs/125.out	2021-01-23 00:40:54.143371473 +0000
+    +++ /tmp/fstests/results//btrfs/125.out.bad	2024-08-06 11:16:56.165547470 +0000
+    @@ -3,5 +3,15 @@
+     Write data with degraded mount
+     
+     Mount normal and balance
+    +ERROR: error during balancing '/tmp/scratch': Input/output error
+    +There may be more info in syslog - try dmesg | tail
+    +md5sum: /tmp/scratch/tf2: Input/output error
+     
+     Mount degraded but with other dev
+    +md5sum: /tmp/scratch/tf2: Input/output error
+    +2f282b84e7e608d5852449ed940bfc51 /tmp/scratch/tf2
+    +
+    +Inital sum does not match with after balance
+    +2f282b84e7e608d5852449ed940bfc51 /tmp/scratch/tf2
+    +
+    +Inital sum does not match with data on dev2 written by balance
+    ...
+    (Run 'diff -u /tmp/fstests/tests/btrfs/125.out /tmp/fstests/results//btrfs/125.out.bad'  to see the entire diff)
+btrfs/125        [15:52:31][ 4356.711882] run fstests btrfs/125 at 2024-08-09 15:52:31
+[ 4357.724010] BTRFS: device fsid 397372e0-8a33-4d6b-b31d-ff9d3104c12d devid 1 transid 131 /dev/vda (254:0) scanned by mount (14090)
+[ 4357.728482] BTRFS info (device vda): first mount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+[ 4357.747086] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4357.748993] BTRFS info (device vda): using free-space-tree
+[ 4359.174729] BTRFS info (device vda): last unmount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+[ 4359.836957] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (14329)
+[ 4359.841759] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (14329)
+[ 4359.844886] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (14329)
+[ 4359.875828] BTRFS info (device vdb): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4359.878099] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4359.879965] BTRFS info (device vdb): using free-space-tree
+[ 4359.896926] BTRFS info (device vdb): checking UUID tree
+[ 4360.224441] BTRFS info (device vdb): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4360.308064] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 2 transid 9 /dev/vdc (254:32) scanned by mount (14361)
+[ 4360.311156] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 1 transid 9 /dev/vdb (254:16) scanned by mount (14361)
+[ 4360.315671] BTRFS info (device vdb): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4360.318560] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4360.320423] BTRFS info (device vdb): using free-space-tree
+[ 4360.327342] BTRFS warning (device vdb): devid 3 uuid e3f626f6-ebd0-46c5-b16d-e598f2e6b577 is missing
+[ 4360.331547] BTRFS warning (device vdb): devid 3 uuid e3f626f6-ebd0-46c5-b16d-e598f2e6b577 is missing
+[ 4362.144283] BTRFS info (device vdb): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4362.467428] BTRFS info (device vdb): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4362.469955] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4362.471864] BTRFS info (device vdb): using free-space-tree
+[ 4362.543872] BTRFS info (device vdb): balance: start -d -m -s
+[ 4362.545782] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4362.779146] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4362.782697] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4362.876700] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4362.879753] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4362.934395] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4362.937615] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4363.128640] BTRFS info (device vdb): balance: ended with status: -5
+[ 4363.416842] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4363.420190] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4363.444274] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4363.447282] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4363.961392] BTRFS info (device vdb): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4364.049394] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 2 transid 14 /dev/vdc (254:32) scanned by mount (14413)
+[ 4364.053490] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 3 transid 14 /dev/vdd (254:48) scanned by mount (14413)
+[ 4364.058490] BTRFS info (device vdc): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4364.060930] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 4364.063186] BTRFS info (device vdc): using free-space-tree
+[ 4364.082041] BTRFS warning (device vdc): devid 1 uuid 53bb0fb0-6f33-43e8-86fb-15f5fbf69269 is missing
+[ 4364.087056] BTRFS warning (device vdc): devid 1 uuid 53bb0fb0-6f33-43e8-86fb-15f5fbf69269 is missing
+[ 4364.566649] ==================================================================
+[ 4364.568643] BUG: KASAN: slab-use-after-free in btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.569456] Write of size 4 at addr ffff888116fac344 by task kworker/u16:7/12942
+[ 4364.569456] 
+[ 4364.569456] CPU: 1 UID: 0 PID: 12942 Comm: kworker/u16:7 Not tainted 6.11.0-rc2-next-20240805-default+ #77
+[ 4364.574424] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4364.574424] Workqueue: btrfs-rmw recover_rbio_work_locked [btrfs]
+[ 4364.583121] Call Trace:
+[ 4364.583121]  <TASK>
+[ 4364.583121]  dump_stack_lvl+0x61/0x80
+[ 4364.583121]  print_address_description.constprop.0+0x5e/0x2f0
+[ 4364.583121]  ? btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  print_report+0x118/0x216
+[ 4364.583121]  ? __virt_addr_valid+0x19b/0x3a0
+[ 4364.583121]  ? btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  kasan_report+0x11d/0x1f0
+[ 4364.583121]  ? __call_rcu_common.constprop.0+0x2b3/0x640
+[ 4364.583121]  ? btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  kasan_check_range+0xec/0x190
+[ 4364.583121]  btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  btrfs_repair_done+0x3e/0x60 [btrfs]
+[ 4364.583121]  btrfs_end_repair_bio+0x5db/0x8a0 [btrfs]
+[ 4364.583121]  ? mark_lock+0xd6/0x1410
+[ 4364.583121]  btrfs_check_read_bio+0x8f0/0xb70 [btrfs]
+[ 4364.583121]  ? mark_held_locks+0x96/0xe0
+[ 4364.583121]  ? btrfs_end_repair_bio+0x8a0/0x8a0 [btrfs]
+[ 4364.583121]  ? kasan_quarantine_put+0xc2/0x1c0
+[ 4364.583121]  btrfs_raid56_end_io+0x145/0x1b0 [btrfs]
+[ 4364.583121]  rbio_orig_end_io+0x230/0x350 [btrfs]
+[ 4364.583121]  recover_rbio+0x40e/0x5a0 [btrfs]
+[ 4364.583121]  ? rbio_orig_end_io+0x350/0x350 [btrfs]
+[ 4364.583121]  ? rcu_is_watching+0xe/0xb0
+[ 4364.583121]  process_one_work+0xce0/0x12a0
+[ 4364.583121]  ? pwq_dec_nr_in_flight+0x540/0x540
+[ 4364.583121]  ? assign_work+0x168/0x240
+[ 4364.583121]  worker_thread+0x717/0x1250
+[ 4364.583121]  ? process_one_work+0x12a0/0x12a0
+[ 4364.583121]  kthread+0x2e3/0x3c0
+[ 4364.583121]  ? _raw_spin_unlock_irq+0x24/0x50
+[ 4364.583121]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4364.583121]  ret_from_fork+0x2d/0x70
+[ 4364.583121]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4364.583121]  ret_from_fork_asm+0x11/0x20
+[ 4364.629950]  </TASK>
+[ 4364.629950] 
+[ 4364.629950] Allocated by task 14431:
+[ 4364.629950]  kasan_save_stack+0x37/0x60
+[ 4364.629950]  kasan_save_track+0x10/0x30
+[ 4364.629950]  __kasan_slab_alloc+0x7d/0x80
+[ 4364.629950]  kmem_cache_alloc_noprof+0x16e/0x3e0
+[ 4364.637074]  mempool_alloc_noprof+0x12e/0x310
+[ 4364.637074]  bio_alloc_bioset+0x1b2/0x7a0
+[ 4364.637074]  btrfs_bio_alloc+0x2e/0x50 [btrfs]
+[ 4364.637074]  submit_extent_page+0x4d1/0xdb0 [btrfs]
+[ 4364.637074]  btrfs_do_readpage+0x8b4/0x12a0 [btrfs]
+[ 4364.637074]  btrfs_readahead+0x29a/0x430 [btrfs]
+[ 4364.637074]  read_pages+0x1a7/0xc60
+[ 4364.637074]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4364.637074]  filemap_get_pages+0x629/0xa20
+[ 4364.637074]  filemap_read+0x335/0xbf0
+[ 4364.637074]  vfs_read+0x790/0xcb0
+[ 4364.637074]  ksys_read+0xfd/0x1d0
+[ 4364.637074]  do_syscall_64+0x6d/0x140
+[ 4364.637074]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4364.637074] 
+[ 4364.637074] Freed by task 37:
+[ 4364.637074]  kasan_save_stack+0x37/0x60
+[ 4364.637074]  kasan_save_track+0x10/0x30
+[ 4364.637074]  kasan_save_free_info+0x37/0x50
+[ 4364.637074]  __kasan_slab_free+0x4b/0x60
+[ 4364.637074]  slab_free_after_rcu_debug+0x14a/0x2a0
+[ 4364.637074]  rcu_do_batch+0x35c/0xb80
+[ 4364.637074]  rcu_core+0x29c/0x4d0
+[ 4364.637074]  handle_softirqs+0x25d/0x6a0
+[ 4364.637074]  run_ksoftirqd+0x37/0x60
+[ 4364.637074]  smpboot_thread_fn+0x558/0x8e0
+[ 4364.637074]  kthread+0x2e3/0x3c0
+[ 4364.637074]  ret_from_fork+0x2d/0x70
+[ 4364.637074]  ret_from_fork_asm+0x11/0x20
+[ 4364.637074] 
+[ 4364.637074] Last potentially related work creation:
+[ 4364.637074]  kasan_save_stack+0x37/0x60
+[ 4364.637074]  __kasan_record_aux_stack+0x11d/0x130
+[ 4364.637074]  kmem_cache_free+0x33f/0x660
+[ 4364.637074]  end_bbio_data_read+0x1cc/0x580 [btrfs]
+[ 4364.637074]  btrfs_submit_chunk+0x98d/0x1880 [btrfs]
+[ 4364.637074]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4364.637074]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4364.637074]  btrfs_readahead+0x348/0x430 [btrfs]
+[ 4364.637074]  read_pages+0x1a7/0xc60
+[ 4364.637074]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4364.637074]  filemap_get_pages+0x629/0xa20
+[ 4364.637074]  filemap_read+0x335/0xbf0
+[ 4364.637074]  vfs_read+0x790/0xcb0
+[ 4364.637074]  ksys_read+0xfd/0x1d0
+[ 4364.637074]  do_syscall_64+0x6d/0x140
+[ 4364.637074]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4364.637074] 
+[ 4364.637074] The buggy address belongs to the object at ffff888116fac2c0
+[ 4364.637074]  which belongs to the cache bio-400 of size 400
+[ 4364.637074] The buggy address is located 132 bytes inside of
+[ 4364.637074]  freed 400-byte region [ffff888116fac2c0, ffff888116fac450)
+[ 4364.637074] 
+[ 4364.637074] The buggy address belongs to the physical page:
+[ 4364.637074] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x116fac
+[ 4364.637074] head: order:2 mapcount:0 entire_mapcount:0 nr_pages_mapped:0 pincount:0
+[ 4364.637074] flags: 0x4500000000040(head|section=34|zone=2)
+[ 4364.637074] page_type: 0xfdffffff(slab)
+[ 4364.637074] raw: 0004500000000040 ffff8881044ed1c0 ffff88813f065610 ffff88813c3d6f10
+[ 4364.637074] raw: 0000000000000000 0000000000190019 00000001fdffffff 0000000000000000
+[ 4364.637074] head: 0004500000000040 ffff8881044ed1c0 ffff88813f065610 ffff88813c3d6f10
+[ 4364.637074] head: 0000000000000000 0000000000190019 00000001fdffffff 0000000000000000
+[ 4364.637074] head: 0004500000000002 ffff88813f3beb01 ffffffffffffffff 0000000000000000
+[ 4364.637074] head: ffff888100000004 0000000000000000 00000000ffffffff 0000000000000000
+[ 4364.637074] page dumped because: kasan: bad access detected
+[ 4364.637074] 
+[ 4364.637074] Memory state around the buggy address:
+[ 4364.637074]  ffff888116fac200: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+[ 4364.637074]  ffff888116fac280: fc fc fc fc fc fc fc fc fa fb fb fb fb fb fb fb
+[ 4364.637074] >ffff888116fac300: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4364.637074]                                            ^
+[ 4364.637074]  ffff888116fac380: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4364.637074]  ffff888116fac400: fb fb fb fb fb fb fb fb fb fb fc fc fc fc fc fc
+[ 4364.637074] ==================================================================
+[ 4364.730649] Disabling lock debugging due to kernel taint
+[ 4365.331583] BTRFS info (device vdc): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4365.570612] BTRFS: device fsid 397372e0-8a33-4d6b-b31d-ff9d3104c12d devid 1 transid 131 /dev/vda (254:0) scanned by mount (14434)
+[ 4365.574585] BTRFS info (device vda): first mount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+[ 4365.576650] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4365.578582] BTRFS info (device vda): using free-space-tree
+[ 4365.763649] BTRFS info (device vda): last unmount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+_check_dmesg: something found in dmesg (see /tmp/fstests/results//btrfs/125.dmesg)
+[ 4356.711882] run fstests btrfs/125 at 2024-08-09 15:52:31
+[ 4357.724010] BTRFS: device fsid 397372e0-8a33-4d6b-b31d-ff9d3104c12d devid 1 transid 131 /dev/vda (254:0) scanned by mount (14090)
+[ 4357.728482] BTRFS info (device vda): first mount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+[ 4357.747086] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4357.748993] BTRFS info (device vda): using free-space-tree
+[ 4359.174729] BTRFS info (device vda): last unmount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+[ 4359.836957] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (14329)
+[ 4359.841759] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (14329)
+[ 4359.844886] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (14329)
+[ 4359.875828] BTRFS info (device vdb): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4359.878099] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4359.879965] BTRFS info (device vdb): using free-space-tree
+[ 4359.896926] BTRFS info (device vdb): checking UUID tree
+[ 4360.224441] BTRFS info (device vdb): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4360.308064] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 2 transid 9 /dev/vdc (254:32) scanned by mount (14361)
+[ 4360.311156] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 1 transid 9 /dev/vdb (254:16) scanned by mount (14361)
+[ 4360.315671] BTRFS info (device vdb): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4360.318560] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4360.320423] BTRFS info (device vdb): using free-space-tree
+[ 4360.327342] BTRFS warning (device vdb): devid 3 uuid e3f626f6-ebd0-46c5-b16d-e598f2e6b577 is missing
+[ 4360.331547] BTRFS warning (device vdb): devid 3 uuid e3f626f6-ebd0-46c5-b16d-e598f2e6b577 is missing
+[ 4362.144283] BTRFS info (device vdb): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4362.467428] BTRFS info (device vdb): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4362.469955] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4362.471864] BTRFS info (device vdb): using free-space-tree
+[ 4362.543872] BTRFS info (device vdb): balance: start -d -m -s
+[ 4362.545782] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4362.779146] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4362.782697] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4362.876700] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4362.879753] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4362.934395] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4362.937615] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4363.128640] BTRFS info (device vdb): balance: ended with status: -5
+[ 4363.416842] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4363.420190] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4363.444274] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4363.447282] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4363.961392] BTRFS info (device vdb): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4364.049394] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 2 transid 14 /dev/vdc (254:32) scanned by mount (14413)
+[ 4364.053490] BTRFS: device fsid b99a81bd-ef91-466a-b0b4-3096b804162c devid 3 transid 14 /dev/vdd (254:48) scanned by mount (14413)
+[ 4364.058490] BTRFS info (device vdc): first mount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4364.060930] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 4364.063186] BTRFS info (device vdc): using free-space-tree
+[ 4364.082041] BTRFS warning (device vdc): devid 1 uuid 53bb0fb0-6f33-43e8-86fb-15f5fbf69269 is missing
+[ 4364.087056] BTRFS warning (device vdc): devid 1 uuid 53bb0fb0-6f33-43e8-86fb-15f5fbf69269 is missing
+[ 4364.566649] ==================================================================
+[ 4364.568643] BUG: KASAN: slab-use-after-free in btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.569456] Write of size 4 at addr ffff888116fac344 by task kworker/u16:7/12942
+
+[ 4364.569456] CPU: 1 UID: 0 PID: 12942 Comm: kworker/u16:7 Not tainted 6.11.0-rc2-next-20240805-default+ #77
+[ 4364.574424] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4364.574424] Workqueue: btrfs-rmw recover_rbio_work_locked [btrfs]
+[ 4364.583121] Call Trace:
+[ 4364.583121]  <TASK>
+[ 4364.583121]  dump_stack_lvl+0x61/0x80
+[ 4364.583121]  print_address_description.constprop.0+0x5e/0x2f0
+[ 4364.583121]  ? btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  print_report+0x118/0x216
+[ 4364.583121]  ? __virt_addr_valid+0x19b/0x3a0
+[ 4364.583121]  ? btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  kasan_report+0x11d/0x1f0
+[ 4364.583121]  ? __call_rcu_common.constprop.0+0x2b3/0x640
+[ 4364.583121]  ? btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  kasan_check_range+0xec/0x190
+[ 4364.583121]  btrfs_orig_bbio_end_io+0x50/0x270 [btrfs]
+[ 4364.583121]  btrfs_repair_done+0x3e/0x60 [btrfs]
+[ 4364.583121]  btrfs_end_repair_bio+0x5db/0x8a0 [btrfs]
+[ 4364.583121]  ? mark_lock+0xd6/0x1410
+[ 4364.583121]  btrfs_check_read_bio+0x8f0/0xb70 [btrfs]
+[ 4364.583121]  ? mark_held_locks+0x96/0xe0
+[ 4364.583121]  ? btrfs_end_repair_bio+0x8a0/0x8a0 [btrfs]
+[ 4364.583121]  ? kasan_quarantine_put+0xc2/0x1c0
+[ 4364.583121]  btrfs_raid56_end_io+0x145/0x1b0 [btrfs]
+[ 4364.583121]  rbio_orig_end_io+0x230/0x350 [btrfs]
+[ 4364.583121]  recover_rbio+0x40e/0x5a0 [btrfs]
+[ 4364.583121]  ? rbio_orig_end_io+0x350/0x350 [btrfs]
+[ 4364.583121]  ? rcu_is_watching+0xe/0xb0
+[ 4364.583121]  process_one_work+0xce0/0x12a0
+[ 4364.583121]  ? pwq_dec_nr_in_flight+0x540/0x540
+[ 4364.583121]  ? assign_work+0x168/0x240
+[ 4364.583121]  worker_thread+0x717/0x1250
+[ 4364.583121]  ? process_one_work+0x12a0/0x12a0
+[ 4364.583121]  kthread+0x2e3/0x3c0
+[ 4364.583121]  ? _raw_spin_unlock_irq+0x24/0x50
+[ 4364.583121]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4364.583121]  ret_from_fork+0x2d/0x70
+[ 4364.583121]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4364.583121]  ret_from_fork_asm+0x11/0x20
+[ 4364.629950]  </TASK>
+
+[ 4364.629950] Allocated by task 14431:
+[ 4364.629950]  kasan_save_stack+0x37/0x60
+[ 4364.629950]  kasan_save_track+0x10/0x30
+[ 4364.629950]  __kasan_slab_alloc+0x7d/0x80
+[ 4364.629950]  kmem_cache_alloc_noprof+0x16e/0x3e0
+[ 4364.637074]  mempool_alloc_noprof+0x12e/0x310
+[ 4364.637074]  bio_alloc_bioset+0x1b2/0x7a0
+[ 4364.637074]  btrfs_bio_alloc+0x2e/0x50 [btrfs]
+[ 4364.637074]  submit_extent_page+0x4d1/0xdb0 [btrfs]
+[ 4364.637074]  btrfs_do_readpage+0x8b4/0x12a0 [btrfs]
+[ 4364.637074]  btrfs_readahead+0x29a/0x430 [btrfs]
+[ 4364.637074]  read_pages+0x1a7/0xc60
+[ 4364.637074]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4364.637074]  filemap_get_pages+0x629/0xa20
+[ 4364.637074]  filemap_read+0x335/0xbf0
+[ 4364.637074]  vfs_read+0x790/0xcb0
+[ 4364.637074]  ksys_read+0xfd/0x1d0
+[ 4364.637074]  do_syscall_64+0x6d/0x140
+[ 4364.637074]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+
+[ 4364.637074] Freed by task 37:
+[ 4364.637074]  kasan_save_stack+0x37/0x60
+[ 4364.637074]  kasan_save_track+0x10/0x30
+[ 4364.637074]  kasan_save_free_info+0x37/0x50
+[ 4364.637074]  __kasan_slab_free+0x4b/0x60
+[ 4364.637074]  slab_free_after_rcu_debug+0x14a/0x2a0
+[ 4364.637074]  rcu_do_batch+0x35c/0xb80
+[ 4364.637074]  rcu_core+0x29c/0x4d0
+[ 4364.637074]  handle_softirqs+0x25d/0x6a0
+[ 4364.637074]  run_ksoftirqd+0x37/0x60
+[ 4364.637074]  smpboot_thread_fn+0x558/0x8e0
+[ 4364.637074]  kthread+0x2e3/0x3c0
+[ 4364.637074]  ret_from_fork+0x2d/0x70
+[ 4364.637074]  ret_from_fork_asm+0x11/0x20
+
+[ 4364.637074] Last potentially related work creation:
+[ 4364.637074]  kasan_save_stack+0x37/0x60
+[ 4364.637074]  __kasan_record_aux_stack+0x11d/0x130
+[ 4364.637074]  kmem_cache_free+0x33f/0x660
+[ 4364.637074]  end_bbio_data_read+0x1cc/0x580 [btrfs]
+[ 4364.637074]  btrfs_submit_chunk+0x98d/0x1880 [btrfs]
+[ 4364.637074]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4364.637074]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4364.637074]  btrfs_readahead+0x348/0x430 [btrfs]
+[ 4364.637074]  read_pages+0x1a7/0xc60
+[ 4364.637074]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4364.637074]  filemap_get_pages+0x629/0xa20
+[ 4364.637074]  filemap_read+0x335/0xbf0
+[ 4364.637074]  vfs_read+0x790/0xcb0
+[ 4364.637074]  ksys_read+0xfd/0x1d0
+[ 4364.637074]  do_syscall_64+0x6d/0x140
+[ 4364.637074]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+
+[ 4364.637074] The buggy address belongs to the object at ffff888116fac2c0
+                which belongs to the cache bio-400 of size 400
+[ 4364.637074] The buggy address is located 132 bytes inside of
+                freed 400-byte region [ffff888116fac2c0, ffff888116fac450)
+
+[ 4364.637074] The buggy address belongs to the physical page:
+[ 4364.637074] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x116fac
+[ 4364.637074] head: order:2 mapcount:0 entire_mapcount:0 nr_pages_mapped:0 pincount:0
+[ 4364.637074] flags: 0x4500000000040(head|section=34|zone=2)
+[ 4364.637074] page_type: 0xfdffffff(slab)
+[ 4364.637074] raw: 0004500000000040 ffff8881044ed1c0 ffff88813f065610 ffff88813c3d6f10
+[ 4364.637074] raw: 0000000000000000 0000000000190019 00000001fdffffff 0000000000000000
+[ 4364.637074] head: 0004500000000040 ffff8881044ed1c0 ffff88813f065610 ffff88813c3d6f10
+[ 4364.637074] head: 0000000000000000 0000000000190019 00000001fdffffff 0000000000000000
+[ 4364.637074] head: 0004500000000002 ffff88813f3beb01 ffffffffffffffff 0000000000000000
+[ 4364.637074] head: ffff888100000004 0000000000000000 00000000ffffffff 0000000000000000
+[ 4364.637074] page dumped because: kasan: bad access detected
+
+[ 4364.637074] Memory state around the buggy address:
+[ 4364.637074]  ffff888116fac200: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+[ 4364.637074]  ffff888116fac280: fc fc fc fc fc fc fc fc fa fb fb fb fb fb fb fb
+[ 4364.637074] >ffff888116fac300: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4364.637074]                                            ^
+[ 4364.637074]  ffff888116fac380: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4364.637074]  ffff888116fac400: fb fb fb fb fb fb fb fb fb fb fc fc fc fc fc fc
+[ 4364.637074] ==================================================================
+[ 4364.730649] Disabling lock debugging due to kernel taint
+[ 4365.331583] BTRFS info (device vdc): last unmount of filesystem b99a81bd-ef91-466a-b0b4-3096b804162c
+[ 4365.570612] BTRFS: device fsid 397372e0-8a33-4d6b-b31d-ff9d3104c12d devid 1 transid 131 /dev/vda (254:0) scanned by mount (14434)
+[ 4365.574585] BTRFS info (device vda): first mount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+[ 4365.576650] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4365.578582] BTRFS info (device vda): using free-space-tree
+[ 4365.763649] BTRFS info (device vda): last unmount of filesystem 397372e0-8a33-4d6b-b31d-ff9d3104c12d
+ [15:52:40]9s - output mismatch (see /tmp/fstests/results//btrfs/125.out.bad)
+    --- tests/btrfs/125.out	2021-01-23 00:40:54.143371473 +0000
+    +++ /tmp/fstests/results//btrfs/125.out.bad	2024-08-09 15:52:40.681706860 +0000
+    @@ -3,5 +3,15 @@
+     Write data with degraded mount
+     
+     Mount normal and balance
+    +ERROR: error during balancing '/tmp/scratch': Input/output error
+    +There may be more info in syslog - try dmesg | tail
+    +md5sum: /tmp/scratch/tf2: Input/output error
+     
+     Mount degraded but with other dev
+    +md5sum: /tmp/scratch/tf2: Input/output error
+    +2f282b84e7e608d5852449ed940bfc51 /tmp/scratch/tf2
+    +
+    +Inital sum does not match with after balance
+    +2f282b84e7e608d5852449ed940bfc51 /tmp/scratch/tf2
+    +
+    +Inital sum does not match with data on dev2 written by balance
+    ...
+    (Run 'diff -u /tmp/fstests/tests/btrfs/125.out /tmp/fstests/results//btrfs/125.out.bad'  to see the entire diff)
+btrfs/125        [16:56:05][ 3867.961903] run fstests btrfs/125 at 2024-08-14 16:56:05
+[ 3868.682829] BTRFS: device fsid 712aa7d5-8ec3-43f7-8242-233451675b0c devid 1 transid 128 /dev/vda (254:0) scanned by mount (20273)
+[ 3868.687123] BTRFS info (device vda): first mount of filesystem 712aa7d5-8ec3-43f7-8242-233451675b0c
+[ 3868.689331] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 3868.691401] BTRFS info (device vda): using free-space-tree
+[ 3869.726411] BTRFS info (device vda): last unmount of filesystem 712aa7d5-8ec3-43f7-8242-233451675b0c
+[ 3870.154273] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (20512)
+[ 3870.157681] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (20512)
+[ 3870.160925] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (20512)
+[ 3870.186295] BTRFS info (device vdb): first mount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3870.188681] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 3870.191342] BTRFS info (device vdb): using free-space-tree
+[ 3870.202406] BTRFS info (device vdb): checking UUID tree
+[ 3870.422558] BTRFS info (device vdb): last unmount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3870.472501] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 2 transid 9 /dev/vdc (254:32) scanned by mount (20544)
+[ 3870.475476] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 1 transid 9 /dev/vdb (254:16) scanned by mount (20544)
+[ 3870.479338] BTRFS info (device vdb): first mount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3870.481444] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 3870.483275] BTRFS info (device vdb): using free-space-tree
+[ 3870.488093] BTRFS warning (device vdb): devid 3 uuid a125bf26-54a5-4231-beb1-894b2df21a33 is missing
+[ 3870.491000] BTRFS warning (device vdb): devid 3 uuid a125bf26-54a5-4231-beb1-894b2df21a33 is missing
+[ 3871.776315] BTRFS info (device vdb): last unmount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3871.928502] BTRFS info (device vdb): first mount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3871.931121] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 3871.933199] BTRFS info (device vdb): using free-space-tree
+[ 3871.972134] BTRFS info (device vdb): balance: start -d -m -s
+[ 3871.974202] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 3872.116472] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 3872.119585] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 3872.177625] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 3872.180180] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 3872.295848] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 3872.298370] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 3872.349149] BTRFS error (device vdb): bad tree block start, mirror 1 want 39108608 have 30588928
+[ 3872.352140] btrfs_repair_io_failure: 18 callbacks suppressed
+[ 3872.352150] BTRFS info (device vdb): read error corrected: ino 0 off 39108608 (dev /dev/vdd sector 18784)
+[ 3872.355858] BTRFS info (device vdb): read error corrected: ino 0 off 39112704 (dev /dev/vdd sector 18792)
+[ 3872.359343] BTRFS info (device vdb): read error corrected: ino 0 off 39116800 (dev /dev/vdd sector 18800)
+[ 3872.361648] BTRFS info (device vdb): read error corrected: ino 0 off 39120896 (dev /dev/vdd sector 18808)
+[ 3872.456003] BTRFS info (device vdb): balance: ended with status: -5
+[ 3872.697728] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 3872.700779] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 3872.703887] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 3873.128807] BTRFS info (device vdb): last unmount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3873.180352] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 2 transid 14 /dev/vdc (254:32) scanned by mount (20596)
+[ 3873.183360] BTRFS: device fsid 6be9d55c-efc0-44ab-bb81-8524dcc752e0 devid 3 transid 14 /dev/vdd (254:48) scanned by mount (20596)
+[ 3873.187227] BTRFS info (device vdc): first mount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3873.189996] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 3873.191835] BTRFS info (device vdc): using free-space-tree
+[ 3873.196865] BTRFS warning (device vdc): devid 1 uuid a410b34a-e3b2-4c27-8be3-6dc751c46884 is missing
+[ 3873.200476] BTRFS warning (device vdc): devid 1 uuid a410b34a-e3b2-4c27-8be3-6dc751c46884 is missing
+[ 3874.225332] BTRFS info (device vdc): last unmount of filesystem 6be9d55c-efc0-44ab-bb81-8524dcc752e0
+[ 3874.415123] BTRFS: device fsid 712aa7d5-8ec3-43f7-8242-233451675b0c devid 1 transid 128 /dev/vda (254:0) scanned by mount (20617)
+[ 3874.418822] BTRFS info (device vda): first mount of filesystem 712aa7d5-8ec3-43f7-8242-233451675b0c
+[ 3874.420917] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 3874.422776] BTRFS info (device vda): using free-space-tree
+[ 3874.595907] BTRFS info (device vda): last unmount of filesystem 712aa7d5-8ec3-43f7-8242-233451675b0c
+ [16:56:11]6s - output mismatch (see /tmp/fstests/results//btrfs/125.out.bad)
+    --- tests/btrfs/125.out	2021-01-23 00:40:54.143371473 +0000
+    +++ /tmp/fstests/results//btrfs/125.out.bad	2024-08-14 16:56:11.749783869 +0000
+    @@ -3,5 +3,15 @@
+     Write data with degraded mount
+     
+     Mount normal and balance
+    +ERROR: error during balancing '/tmp/scratch': Input/output error
+    +There may be more info in syslog - try dmesg | tail
+    +md5sum: /tmp/scratch/tf2: Input/output error
+     
+     Mount degraded but with other dev
+    +md5sum: /tmp/scratch/tf2: Input/output error
+    +2f282b84e7e608d5852449ed940bfc51 /tmp/scratch/tf2
+    +
+    +Inital sum does not match with after balance
+    +2f282b84e7e608d5852449ed940bfc51 /tmp/scratch/tf2
+    +
+    +Inital sum does not match with data on dev2 written by balance
+    ...
+    (Run 'diff -u /tmp/fstests/tests/btrfs/125.out /tmp/fstests/results//btrfs/125.out.bad'  to see the entire diff)
+btrfs/125        [13:22:43][ 4341.890281] run fstests btrfs/125 at 2024-08-16 13:22:43
+[ 4342.849970] BTRFS: device fsid bca094ea-fb26-4fbe-bb68-4e5a0419113c devid 1 transid 128 /dev/vda (254:0) scanned by mount (4261)
+[ 4342.854769] BTRFS info (device vda): first mount of filesystem bca094ea-fb26-4fbe-bb68-4e5a0419113c
+[ 4342.856916] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4342.858808] BTRFS info (device vda): using free-space-tree
+[ 4344.220477] BTRFS info (device vda): last unmount of filesystem bca094ea-fb26-4fbe-bb68-4e5a0419113c
+[ 4344.811434] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (4500)
+[ 4344.814787] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (4500)
+[ 4344.818018] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (4500)
+[ 4344.848817] BTRFS info (device vdb): first mount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4344.851201] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4344.853184] BTRFS info (device vdb): using free-space-tree
+[ 4344.867368] BTRFS info (device vdb): checking UUID tree
+[ 4345.173807] BTRFS info (device vdb): last unmount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4345.263724] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 2 transid 9 /dev/vdc (254:32) scanned by mount (4532)
+[ 4345.266913] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 1 transid 9 /dev/vdb (254:16) scanned by mount (4532)
+[ 4345.271436] BTRFS info (device vdb): first mount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4345.274381] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4345.276352] BTRFS info (device vdb): using free-space-tree
+[ 4345.283958] BTRFS warning (device vdb): devid 3 uuid d3d0fca5-a02a-4f25-a35c-a9c669a220b5 is missing
+[ 4345.287087] BTRFS warning (device vdb): devid 3 uuid d3d0fca5-a02a-4f25-a35c-a9c669a220b5 is missing
+[ 4347.001799] BTRFS info (device vdb): last unmount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4347.296086] BTRFS info (device vdb): first mount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4347.298567] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4347.300568] BTRFS info (device vdb): using free-space-tree
+[ 4347.365692] BTRFS info (device vdb): balance: start -d -m -s
+[ 4347.367663] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4347.604473] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4347.608111] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4347.611916] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4347.629828] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4347.718282] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4347.721376] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4347.724234] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4347.726928] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4347.729891] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4347.732539] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4348.045360] btrfs_repair_io_failure: 26 callbacks suppressed
+[ 4348.045373] BTRFS info (device vdb): read error corrected: ino 0 off 39108608 (dev /dev/vdd sector 18784)
+[ 4348.050059] BTRFS info (device vdb): read error corrected: ino 0 off 39112704 (dev /dev/vdd sector 18792)
+[ 4348.052835] BTRFS info (device vdb): read error corrected: ino 0 off 39116800 (dev /dev/vdd sector 18800)
+[ 4348.055713] BTRFS info (device vdb): read error corrected: ino 0 off 39120896 (dev /dev/vdd sector 18808)
+[ 4348.188241] BTRFS info (device vdb): balance: ended with status: -5
+[ 4348.630266] BTRFS info (device vdb): last unmount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4348.712907] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 2 transid 14 /dev/vdc (254:32) scanned by mount (4584)
+[ 4348.716893] BTRFS: device fsid 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6 devid 3 transid 14 /dev/vdd (254:48) scanned by mount (4584)
+[ 4348.724254] BTRFS info (device vdc): first mount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
+[ 4348.727192] BTRFS info (device vdc): using crc32c (crc32c-generic) checksum algorithm
+[ 4348.729711] BTRFS info (device vdc): using free-space-tree
+[ 4348.735546] BTRFS warning (device vdc): devid 1 uuid e25f3f70-7d2b-49b7-9996-9d3e907c6cf2 is missing
+[ 4348.739561] BTRFS warning (device vdc): devid 1 uuid e25f3f70-7d2b-49b7-9996-9d3e907c6cf2 is missing
+[ 4349.138664] ==================================================================
+[ 4349.140813] BUG: KASAN: slab-use-after-free in btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4349.143253] Read of size 4 at addr ffff888114103588 by task kworker/u16:4/3109
+[ 4349.145233] 
+[ 4349.145951] CPU: 1 UID: 0 PID: 3109 Comm: kworker/u16:4 Not tainted 6.11.0-rc3-next-20240816-default #80
+[ 4349.147068] assertion failed: bv->bv_len == fs_info->sectorsize, in fs/btrfs/inode.c:3339
+[ 4349.147988] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4349.147995] Workqueue: btrfs-endio btrfs_end_bio_work [btrfs]
+[ 4349.150085] ------------[ cut here ]------------
+[ 4349.152741] 
+[ 4349.152745] Call Trace:
+[ 4349.154015] kernel BUG at fs/btrfs/inode.c:3339!
+[ 4349.155094]  <TASK>
+[ 4349.155506] Oops: invalid opcode: 0000 [#1] PREEMPT SMP KASAN
+[ 4349.156103]  dump_stack_lvl+0x61/0x80
+[ 4349.157090] CPU: 2 UID: 0 PID: 3108 Comm: kworker/u16:0 Not tainted 6.11.0-rc3-next-20240816-default #80
+[ 4349.157590]  print_address_description.constprop.0+0x5e/0x2f0
+[ 4349.158802] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4349.159868]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4349.161863] Workqueue: btrfs-endio btrfs_end_bio_work [btrfs]
+[ 4349.163316]  print_report+0x118/0x216
+[ 4349.165915] 
+[ 4349.167158]  ? __virt_addr_valid+0x19b/0x3a0
+[ 4349.168491] RIP: 0010:btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.169425]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4349.169804] Code: 80 3c a2 c0 e8 29 4e f7 d8 0f 0b b9 0b 0d 00 00 48 c7 c2 60 3e a2 c0 48 c7 c6 e0 46 a2 c0 48 c7 c7 80 3c a2 c0 e8 08 4e f7 d8 <0f> 0b 48 8d bb 80 00 00 00 b8 ff ff 37 00 48 89 fa 48 c1 e0 2a 48
+[ 4349.170918]  kasan_report+0x11d/0x1f0
+[ 4349.172305] RSP: 0018:ffff8881049b7ad8 EFLAGS: 00010286
+[ 4349.173574]  ? btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4349.177517] 
+[ 4349.178431]  btrfs_check_read_bio+0xa68/0xb70 [btrfs]
+[ 4349.179498] RAX: 000000000000004d RBX: ffff888104f7d480 RCX: 0000000000000000
+[ 4349.180678]  ? btrfs_end_repair_bio+0x8a0/0x8a0 [btrfs]
+[ 4349.180965] RDX: 000000000000004d RSI: ffffffff99c71d40 RDI: ffffed1020936f4e
+[ 4349.182064]  ? rcu_is_watching+0xe/0xb0
+[ 4349.183518] RBP: ffff8881049b7c70 R08: 0000000000000001 R09: fffffbfff38c0290
+[ 4349.184761]  process_one_work+0xcfa/0x1300
+[ 4349.186280] R10: ffffffff9c601487 R11: 0000000000000001 R12: 0000000000000000
+[ 4349.187217]  ? pwq_dec_nr_in_flight+0x540/0x540
+[ 4349.188732] R13: ffff888112424000 R14: 0000000000000629 R15: ffff8881049b7b40
+[ 4349.189734]  ? assign_work+0x168/0x240
+[ 4349.191207] FS:  0000000000000000(0000) GS:ffff88811ae00000(0000) knlGS:0000000000000000
+[ 4349.192345]  worker_thread+0x717/0x1250
+[ 4349.193839] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 4349.194767]  ? process_one_work+0x1300/0x1300
+[ 4349.196445] CR2: 0000559ea3370000 CR3: 0000000109ec5000 CR4: 00000000000006b0
+[ 4349.197425]  kthread+0x2e3/0x3c0
+[ 4349.198646] Call Trace:
+[ 4349.199768]  ? _raw_spin_unlock_irq+0x24/0x50
+[ 4349.201234]  <TASK>
+[ 4349.202055]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4349.202608]  ? show_trace_log_lvl+0x1f3/0x330
+[ 4349.203698]  ret_from_fork+0x2d/0x70
+[ 4349.204172]  ? show_trace_log_lvl+0x1f3/0x330
+[ 4349.205468]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4349.206402]  ? show_trace_log_lvl+0x1f3/0x330
+[ 4349.207268]  ret_from_fork_asm+0x11/0x20
+[ 4349.208172]  ? btrfs_check_read_bio+0x385/0xb70 [btrfs]
+[ 4349.209476]  </TASK>
+[ 4349.210419]  ? __die+0x54/0x91
+[ 4349.211383] 
+[ 4349.212460]  ? die+0x2a/0x50
+[ 4349.213032] Allocated by task 4602:
+[ 4349.213693]  ? do_trap+0x1b7/0x290
+[ 4349.214079]  kasan_save_stack+0x37/0x60
+[ 4349.214703]  ? btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.215554]  kasan_save_track+0x10/0x30
+[ 4349.216279]  ? btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.217217]  __kasan_slab_alloc+0x7d/0x80
+[ 4349.218332]  ? do_error_trap+0xa3/0x170
+[ 4349.219329]  kmem_cache_alloc_noprof+0x16e/0x3e0
+[ 4349.220443]  ? btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.221432]  mempool_alloc_noprof+0x12e/0x310
+[ 4349.222237]  ? handle_invalid_op+0x2c/0x30
+[ 4349.223412]  bio_alloc_bioset+0x3f0/0x7a0
+[ 4349.224564]  ? btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.225642]  btrfs_bio_alloc+0x2e/0x50 [btrfs]
+[ 4349.226498]  ? exc_invalid_op+0x29/0x40
+[ 4349.227464]  submit_extent_folio+0x51d/0xe00 [btrfs]
+[ 4349.228518]  ? asm_exc_invalid_op+0x16/0x20
+[ 4349.229616]  btrfs_do_readpage+0x70a/0x1050 [btrfs]
+[ 4349.230410]  ? btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.231660]  btrfs_readahead+0x3a8/0x600 [btrfs]
+[ 4349.232494]  ? btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.233656]  read_pages+0x1a7/0xc60
+[ 4349.234703]  ? __lock_acquire+0xca4/0x1ae0
+[ 4349.235740]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4349.236665]  ? btrfs_check_sector_csum+0x3a0/0x3a0 [btrfs]
+[ 4349.237478]  filemap_get_pages+0x63b/0xa30
+[ 4349.238322]  btrfs_check_read_bio+0x385/0xb70 [btrfs]
+[ 4349.239433]  filemap_read+0x335/0xbf0
+[ 4349.240554]  ? btrfs_end_repair_bio+0x8a0/0x8a0 [btrfs]
+[ 4349.241537]  vfs_read+0x78d/0xd50
+[ 4349.242619]  ? rcu_is_watching+0xe/0xb0
+[ 4349.243521]  ksys_read+0xfd/0x1d0
+[ 4349.244593]  process_one_work+0xcfa/0x1300
+[ 4349.245444]  do_syscall_64+0x6d/0x140
+[ 4349.246367]  ? pwq_dec_nr_in_flight+0x540/0x540
+[ 4349.247175]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4349.248059]  ? assign_work+0x168/0x240
+[ 4349.248980] 
+[ 4349.249949]  worker_thread+0x717/0x1250
+[ 4349.251207] Freed by task 4602:
+[ 4349.251955]  ? process_one_work+0x1300/0x1300
+[ 4349.252396]  kasan_save_stack+0x37/0x60
+[ 4349.253187]  kthread+0x2e3/0x3c0
+[ 4349.254012]  kasan_save_track+0x10/0x30
+[ 4349.254952]  ? _raw_spin_unlock_irq+0x24/0x50
+[ 4349.255940]  kasan_save_free_info+0x37/0x50
+[ 4349.256657]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4349.257617]  __kasan_slab_free+0x4b/0x60
+[ 4349.258574]  ret_from_fork+0x2d/0x70
+[ 4349.259612]  kmem_cache_free+0x224/0x660
+[ 4349.260743]  ? kthread_insert_work_sanity_check+0xd0/0xd0
+[ 4349.261682]  bio_free+0xed/0x180
+[ 4349.262411]  ret_from_fork_asm+0x11/0x20
+[ 4349.263340]  end_bbio_data_read+0x1cf/0x4c0 [btrfs]
+[ 4349.264323]  </TASK>
+[ 4349.265025]  btrfs_submit_chunk+0xa34/0x1ba0 [btrfs]
+[ 4349.265727] Modules linked in:
+[ 4349.266763]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4349.267155]  dm_flakey
+[ 4349.268207]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4349.268746]  dm_mod
+[ 4349.269720]  submit_extent_folio+0x44e/0xe00 [btrfs]
+[ 4349.270146]  btrfs
+[ 4349.271111]  btrfs_do_readpage+0x70a/0x1050 [btrfs]
+[ 4349.271486]  blake2b_generic
+[ 4349.272542]  btrfs_readahead+0x3a8/0x600 [btrfs]
+[ 4349.272903]  libcrc32c
+[ 4349.273952]  read_pages+0x1a7/0xc60
+[ 4349.274474]  xor
+[ 4349.275469]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4349.275898]  lzo_compress
+[ 4349.276649]  filemap_get_pages+0x63b/0xa30
+[ 4349.276984]  lzo_decompress
+[ 4349.277958]  filemap_read+0x335/0xbf0
+[ 4349.278425]  raid6_pq
+[ 4349.279323]  vfs_read+0x78d/0xd50
+[ 4349.279818]  zstd_decompress
+[ 4349.280684]  ksys_read+0xfd/0x1d0
+[ 4349.281157]  zstd_compress
+[ 4349.281951]  do_syscall_64+0x6d/0x140
+[ 4349.282576]  zstd_common
+[ 4349.283349]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4349.283907]  xxhash
+[ 4349.284746] 
+[ 4349.285223]  loop
+[ 4349.286411] The buggy address belongs to the object at ffff8881141034c0
+[ 4349.286411]  which belongs to the cache biovec-max of size 4096
+[ 4349.286785] 
+[ 4349.287163] The buggy address is located 200 bytes inside of
+[ 4349.287163]  freed 4096-byte region [ffff8881141034c0, ffff8881141044c0)
+[ 4349.287553] ---[ end trace 0000000000000000 ]---
+[ 4349.290414] 
+[ 4349.290417] The buggy address belongs to the physical page:
+[ 4349.290420] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x114100
+[ 4349.290424] head: order:3 mapcount:0 entire_mapcount:0 nr_pages_mapped:0 pincount:0
+[ 4349.290752] RIP: 0010:btrfs_data_csum_ok.cold+0x1f/0x623 [btrfs]
+[ 4349.293535] flags: 0x4500000000040(head|section=34|zone=2)
+[ 4349.293542] page_type: 0xfdffffff(slab)
+[ 4349.293546] raw: 0004500000000040 ffff888100d343c0 ffff88813ef74c10 ffff88813bf50c10
+[ 4349.294444] Code: 80 3c a2 c0 e8 29 4e f7 d8 0f 0b b9 0b 0d 00 00 48 c7 c2 60 3e a2 c0 48 c7 c6 e0 46 a2 c0 48 c7 c7 80 3c a2 c0 e8 08 4e f7 d8 <0f> 0b 48 8d bb 80 00 00 00 b8 ff ff 37 00 48 89 fa 48 c1 e0 2a 48
+[ 4349.294780] raw: 0000000000000000 0000000000070007 00000001fdffffff 0000000000000000
+[ 4349.295751] RSP: 0018:ffff8881049b7ad8 EFLAGS: 00010286
+[ 4349.297468] head: 0004500000000040 ffff888100d343c0 ffff88813ef74c10 ffff88813bf50c10
+[ 4349.297472] head: 0000000000000000 0000000000070007 00000001fdffffff 0000000000000000
+[ 4349.297475] head: 0004500000000003 ffff88813f304001 ffffffffffffffff 0000000000000000
+[ 4349.297477] head: 0000000000000008 0000000000000000 00000000ffffffff 0000000000000000
+[ 4349.297480] page dumped because: kasan: bad access detected
+[ 4349.298801] 
+[ 4349.300072] 
+[ 4349.301021] RAX: 000000000000004d RBX: ffff888104f7d480 RCX: 0000000000000000
+[ 4349.301828] Memory state around the buggy address:
+[ 4349.303165] RDX: 000000000000004d RSI: ffffffff99c71d40 RDI: ffffed1020936f4e
+[ 4349.307362]  ffff888114103480: fc fc fc fc fc fc fc fc fa fb fb fb fb fb fb fb
+[ 4349.307367]  ffff888114103500: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4349.307369] >ffff888114103580: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4349.307371]                       ^
+[ 4349.307373]  ffff888114103600: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4349.308883] RBP: ffff8881049b7c70 R08: 0000000000000001 R09: fffffbfff38c0290
+[ 4349.310117]  ffff888114103680: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4349.310120] ==================================================================
+[ 4349.395911] R10: ffffffff9c601487 R11: 0000000000000001 R12: 0000000000000000
+[ 4349.397711] R13: ffff888112424000 R14: 0000000000000629 R15: ffff8881049b7b40
+[ 4349.399446] FS:  0000000000000000(0000) GS:ffff88811ae00000(0000) knlGS:0000000000000000
+[ 4349.401566] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 4349.402912] CR2: 0000559ea3370000 CR3: 0000000109ec5000 CR4: 00000000000006b0
+[ 4349.532312] BTRFS info (device vdc): last unmount of filesystem 8f4b1f00-61f0-4bcc-bd6a-728916f9b9e6
