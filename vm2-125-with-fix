@@ -1,0 +1,272 @@
+btrfs/125        [23:25:12][ 4272.016633] run fstests btrfs/125 at 2024-08-19 23:25:12
+[ 4273.002018] BTRFS: device fsid 6bd4628a-a654-4055-8547-d5cb5b941460 devid 1 transid 127 /dev/vda (254:0) scanned by mount (14531)
+[ 4273.006889] BTRFS info (device vda): first mount of filesystem 6bd4628a-a654-4055-8547-d5cb5b941460
+[ 4273.009056] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4273.011029] BTRFS info (device vda): using free-space-tree
+[ 4274.369431] BTRFS info (device vda): last unmount of filesystem 6bd4628a-a654-4055-8547-d5cb5b941460
+[ 4274.946870] BTRFS: device fsid 25f47c47-1335-4bbf-8b0f-aca5a7a4b494 devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (14770)
+[ 4274.950056] BTRFS: device fsid 25f47c47-1335-4bbf-8b0f-aca5a7a4b494 devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (14770)
+[ 4274.953725] BTRFS: device fsid 25f47c47-1335-4bbf-8b0f-aca5a7a4b494 devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (14770)
+[ 4274.983644] BTRFS info (device vdb): first mount of filesystem 25f47c47-1335-4bbf-8b0f-aca5a7a4b494
+[ 4274.985971] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4274.987974] BTRFS info (device vdb): using free-space-tree
+[ 4275.001986] BTRFS info (device vdb): checking UUID tree
+[ 4275.316253] BTRFS info (device vdb): last unmount of filesystem 25f47c47-1335-4bbf-8b0f-aca5a7a4b494
+[ 4275.394786] BTRFS: device fsid 25f47c47-1335-4bbf-8b0f-aca5a7a4b494 devid 2 transid 9 /dev/vdc (254:32) scanned by mount (14802)
+[ 4275.398525] BTRFS: device fsid 25f47c47-1335-4bbf-8b0f-aca5a7a4b494 devid 1 transid 9 /dev/vdb (254:16) scanned by mount (14802)
+[ 4275.403265] BTRFS info (device vdb): first mount of filesystem 25f47c47-1335-4bbf-8b0f-aca5a7a4b494
+[ 4275.405636] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4275.407713] BTRFS info (device vdb): using free-space-tree
+[ 4275.425714] BTRFS warning (device vdb): devid 3 uuid c9f006b0-e465-456b-8d1e-14ba6a6b0813 is missing
+[ 4275.428764] BTRFS warning (device vdb): devid 3 uuid c9f006b0-e465-456b-8d1e-14ba6a6b0813 is missing
+[ 4277.133167] BTRFS info (device vdb): last unmount of filesystem 25f47c47-1335-4bbf-8b0f-aca5a7a4b494
+[ 4277.425249] BTRFS info (device vdb): first mount of filesystem 25f47c47-1335-4bbf-8b0f-aca5a7a4b494
+[ 4277.427483] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4277.429376] BTRFS info (device vdb): using free-space-tree
+[ 4277.477116] BTRFS info (device vdb): balance: start -d -m -s
+[ 4277.478985] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4277.717049] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4277.720812] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4277.724040] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4277.726800] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4277.791962] ==================================================================
+[ 4277.793898] BUG: KASAN: double-free in rcu_do_batch+0x2ec/0xaf0
+[ 4277.795451] Free of addr ffff888103b58280 by task btrfs/14846
+[ 4277.796939] 
+[ 4277.797486] CPU: 1 UID: 0 PID: 14846 Comm: btrfs Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 4277.799769] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+[ 4277.802589] Call Trace:
+[ 4277.803342]  <IRQ>
+[ 4277.804014]  dump_stack_lvl+0x61/0x80
+[ 4277.805044]  print_address_description.constprop.0+0x5e/0x2f0
+[ 4277.806534]  print_report+0x118/0x216
+[ 4277.807567]  ? __virt_addr_valid+0x19b/0x3a0
+[ 4277.808741]  ? rcu_do_batch+0x2ec/0xaf0
+[ 4277.809805]  kasan_report_invalid_free+0xf6/0x1b0
+[ 4277.811070]  ? rcu_do_batch+0x2ec/0xaf0
+[ 4277.812163]  ? rcu_do_batch+0x2ec/0xaf0
+[ 4277.813231]  check_slab_allocation+0x16d/0x1a0
+[ 4277.814442]  slab_free_after_rcu_debug+0x12c/0x2a0
+[ 4277.815732]  ? rcu_do_batch+0x2ea/0xaf0
+[ 4277.816803]  rcu_do_batch+0x2ec/0xaf0
+[ 4277.817831]  ? param_set_next_fqs_jiffies+0x140/0x140
+[ 4277.819186]  ? _raw_spin_unlock_irqrestore+0x48/0x60
+[ 4277.820518]  ? lockdep_hardirqs_on+0x78/0x100
+[ 4277.821708]  ? _raw_spin_unlock_irqrestore+0x35/0x60
+[ 4277.822874]  rcu_core+0x29c/0x4d0
+[ 4277.823734]  handle_softirqs+0x25d/0x6a0
+[ 4277.824718]  ? _local_bh_enable+0xa0/0xa0
+[ 4277.825707]  ? rcu_is_watching+0xe/0xb0
+[ 4277.826664]  irq_exit_rcu+0xdb/0x150
+[ 4277.827569]  sysvec_apic_timer_interrupt+0x8a/0xb0
+[ 4277.828717]  </IRQ>
+[ 4277.829339]  <TASK>
+[ 4277.829961]  asm_sysvec_apic_timer_interrupt+0x16/0x20
+[ 4277.831162] RIP: 0010:lock_is_held_type+0xdb/0x110
+[ 4277.832320] Code: c5 48 c7 c7 e0 21 c7 a1 e8 92 0d 00 00 b8 ff ff ff ff 65 0f c1 05 c5 66 8e 5e 83 f8 01 75 1b 41 f7 c7 00 02 00 00 74 01 fb 5b <89> e8 5d 41 5c 41 5d 41 5e 41 5f c3 31 ed eb c7 0f 0b 48 c7 c7 40
+[ 4277.836308] RSP: 0018:ffff88811297f148 EFLAGS: 00000206
+[ 4277.837526] RAX: 0000000000000001 RBX: 0000000000000001 RCX: 0000000000000001
+[ 4277.839129] RDX: 0000000000000000 RSI: ffffffffa1c721e0 RDI: ffffffffa1e17de0
+[ 4277.840703] RBP: 0000000000000000 R08: ffffffffa302437a R09: 0000000000000000
+[ 4277.842293] R10: ffff88811297f228 R11: 0000000000000001 R12: ffffffffa269f440
+[ 4277.843899] R13: ffff888114753b40 R14: 00000000ffffffff R15: 0000000000000246
+[ 4277.845516]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.846763]  rcu_read_lock_sched_held+0x3b/0x70
+[ 4277.847848]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.849116]  __module_address+0x7a/0x2b0
+[ 4277.850075]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.851336]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.852582]  is_module_text_address+0x1e/0x150
+[ 4277.853642]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.854895]  kernel_text_address+0x7a/0xf0
+[ 4277.855898]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.857152]  __kernel_text_address+0xe/0x30
+[ 4277.858167]  unwind_get_return_address+0x56/0xa0
+[ 4277.859264]  ? __thaw_task+0xb0/0xb0
+[ 4277.860168]  arch_stack_walk+0xe1/0x130
+[ 4277.861110]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.862365]  stack_trace_save+0x90/0xc0
+[ 4277.863307]  ? filter_irq_stacks+0x90/0x90
+[ 4277.864309]  ? mark_held_locks+0x96/0xe0
+[ 4277.865282]  ? _raw_spin_unlock_irqrestore+0x48/0x60
+[ 4277.866437]  set_track_prepare+0x88/0xc0
+[ 4277.867403]  ? kmem_cache_alloc_noprof+0x324/0x3e0
+[ 4277.868542]  ___slab_alloc+0x125f/0x1400
+[ 4277.869511]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.870762]  ? ___slab_alloc+0x83/0x1400
+[ 4277.871741]  ? lock_is_held_type+0xbe/0x110
+[ 4277.872759]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.874016]  ? __slab_alloc.isra.0+0x5b/0xb0
+[ 4277.875058]  __slab_alloc.isra.0+0x5b/0xb0
+[ 4277.876055]  kmem_cache_alloc_noprof+0x324/0x3e0
+[ 4277.877162]  ? alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.878400]  alloc_extent_state+0x1d/0x200 [btrfs]
+[ 4277.879609]  __set_extent_bit+0xaf0/0x1240 [btrfs]
+[ 4277.880824]  set_extent_bit+0x14/0x20 [btrfs]
+[ 4277.881973]  relocate_one_folio+0x61c/0xff0 [btrfs]
+[ 4277.883203]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 4277.884619]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 4277.886081]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 4277.887467]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 4277.888730]  ? preempt_count_add+0x79/0x150
+[ 4277.889736]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 4277.891086]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 4277.892347]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 4277.893826]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 4277.898221]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 4277.899524]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 4277.900706]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 4277.902090]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 4277.903194]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 4277.904387]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 4277.905556]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 4277.906797]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 4277.907951]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 4277.909139]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 4277.910375]  ? lockdep_hardirqs_on+0x78/0x100
+[ 4277.911424]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 4277.912651]  __x64_sys_ioctl+0x127/0x180
+[ 4277.913620]  do_syscall_64+0x6d/0x140
+[ 4277.914543]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4277.915728] RIP: 0033:0x7fabbff1b70f
+[ 4277.916625] Code: 00 48 89 44 24 18 31 c0 48 8d 44 24 60 c7 04 24 10 00 00 00 48 89 44 24 08 48 8d 44 24 20 48 89 44 24 10 b8 10 00 00 00 0f 05 <89> c2 3d 00 f0 ff ff 77 18 48 8b 44 24 18 64 48 2b 04 25 28 00 00
+[ 4277.920569] RSP: 002b:00007ffe8ebdb530 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 4277.922322] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007fabbff1b70f
+[ 4277.923881] RDX: 00007ffe8ebdb610 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 4277.925475] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 4277.927042] R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffe8ebddfe6
+[ 4277.928622] R13: 00007ffe8ebdb610 R14: 0000000000000002 R15: 000055d23af9c048
+[ 4277.930198]  </TASK>
+[ 4277.930839] 
+[ 4277.931368] Allocated by task 14846:
+[ 4277.932268]  kasan_save_stack+0x37/0x60
+[ 4277.933213]  kasan_save_track+0x10/0x30
+[ 4277.934159]  __kasan_slab_alloc+0x7d/0x80
+[ 4277.935152]  kmem_cache_alloc_noprof+0x16e/0x3e0
+[ 4277.936264]  mempool_alloc_noprof+0x12e/0x310
+[ 4277.937313]  bio_alloc_bioset+0x1b2/0x7a0
+[ 4277.938294]  bio_alloc_clone+0x50/0x390
+[ 4277.939231]  bio_split+0xae/0x4e0
+[ 4277.940080]  btrfs_submit_chunk+0xbf3/0x1940 [btrfs]
+[ 4277.941336]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4277.942504]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4277.943662]  submit_extent_folio+0x44e/0xe00 [btrfs]
+[ 4277.944917]  btrfs_do_readpage+0x70a/0x1050 [btrfs]
+[ 4277.946131]  btrfs_readahead+0x3a8/0x600 [btrfs]
+[ 4277.947304]  read_pages+0x1a7/0xc60
+[ 4277.948191]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4277.949283]  relocate_one_folio+0xb78/0xff0 [btrfs]
+[ 4277.950513]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 4277.951907]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 4277.953156]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 4277.954513]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 4277.955783]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 4277.956955]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 4277.958115]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 4277.959359]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 4277.960516]  __x64_sys_ioctl+0x127/0x180
+[ 4277.961493]  do_syscall_64+0x6d/0x140
+[ 4277.962406]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4277.963582] 
+[ 4277.964085] Freed by task 14846:
+[ 4277.964924]  kasan_save_stack+0x37/0x60
+[ 4277.965870]  kasan_save_track+0x10/0x30
+[ 4277.966815]  kasan_save_free_info+0x37/0x50
+[ 4277.967819]  __kasan_slab_free+0x4b/0x60
+[ 4277.968785]  slab_free_after_rcu_debug+0x14a/0x2a0
+[ 4277.969918]  rcu_do_batch+0x2ec/0xaf0
+[ 4277.970826]  rcu_core+0x29c/0x4d0
+[ 4277.971694]  handle_softirqs+0x25d/0x6a0
+[ 4277.972660]  irq_exit_rcu+0xdb/0x150
+[ 4277.973563]  sysvec_apic_timer_interrupt+0x8a/0xb0
+[ 4277.974705]  asm_sysvec_apic_timer_interrupt+0x16/0x20
+[ 4277.975893] 
+[ 4277.976399] Last potentially related work creation:
+[ 4277.977545]  kasan_save_stack+0x37/0x60
+[ 4277.978499]  __kasan_record_aux_stack+0x11d/0x130
+[ 4277.979598]  kmem_cache_free+0x33f/0x660
+[ 4277.980565]  btrfs_orig_bbio_end_io+0xea/0x270 [btrfs]
+[ 4277.981855]  btrfs_submit_chunk+0xa10/0x1940 [btrfs]
+[ 4277.983091]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4277.984255]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4277.985412]  submit_extent_folio+0x44e/0xe00 [btrfs]
+[ 4277.986652]  btrfs_do_readpage+0x70a/0x1050 [btrfs]
+[ 4277.987872]  btrfs_readahead+0x3a8/0x600 [btrfs]
+[ 4277.989058]  read_pages+0x1a7/0xc60
+[ 4277.989937]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4277.991040]  relocate_one_folio+0xb78/0xff0 [btrfs]
+[ 4277.992288]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 4277.993682]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 4277.994951]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 4277.996307]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 4277.997578]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 4277.998772]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 4277.999934]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 4278.001182]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 4278.002339]  __x64_sys_ioctl+0x127/0x180
+[ 4278.003300]  do_syscall_64+0x6d/0x140
+[ 4278.004212]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4278.005383] 
+[ 4278.005886] Second to last potentially related work creation:
+[ 4278.007182]  kasan_save_stack+0x37/0x60
+[ 4278.008131]  __kasan_record_aux_stack+0x11d/0x130
+[ 4278.009237]  kmem_cache_free+0x33f/0x660
+[ 4278.010206]  btrfs_submit_chunk+0x9ba/0x1940 [btrfs]
+[ 4278.011478]  btrfs_submit_bio+0x33/0x70 [btrfs]
+[ 4278.012646]  submit_one_bio+0xd4/0x130 [btrfs]
+[ 4278.013789]  submit_extent_folio+0x44e/0xe00 [btrfs]
+[ 4278.015023]  btrfs_do_readpage+0x70a/0x1050 [btrfs]
+[ 4278.016247]  btrfs_readahead+0x3a8/0x600 [btrfs]
+[ 4278.017423]  read_pages+0x1a7/0xc60
+[ 4278.018308]  page_cache_ra_unbounded+0x2ad/0x560
+[ 4278.019416]  relocate_one_folio+0xb78/0xff0 [btrfs]
+[ 4278.020655]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 4278.022054]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 4278.023315]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 4278.024682]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 4278.025945]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 4278.027131]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 4278.028296]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 4278.029530]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 4278.030672]  __x64_sys_ioctl+0x127/0x180
+[ 4278.031663]  do_syscall_64+0x6d/0x140
+[ 4278.032575]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4278.033740] 
+[ 4278.034237] The buggy address belongs to the object at ffff888103b58280
+[ 4278.034237]  which belongs to the cache bio-336 of size 336
+[ 4278.036840] The buggy address is located 0 bytes inside of
+[ 4278.036840]  336-byte region [ffff888103b58280, ffff888103b583d0)
+[ 4278.039332] 
+[ 4278.039832] The buggy address belongs to the physical page:
+[ 4278.041094] page: refcount:1 mapcount:0 mapping:0000000000000000 index:0xffff888103b5ab00 pfn:0x103b58
+[ 4278.043156] head: order:2 mapcount:0 entire_mapcount:0 nr_pages_mapped:0 pincount:0
+[ 4278.044905] flags: 0x4100000000240(workingset|head|section=32|zone=2)
+[ 4278.046340] page_type: 0xfdffffff(slab)
+[ 4278.047290] raw: 0004100000000240 ffff888103ac9c40 ffff8881097b5e90 ffff8881097b5e90
+[ 4278.049060] raw: ffff888103b5ab00 00000000001c000f 00000001fdffffff 0000000000000000
+[ 4278.050824] head: 0004100000000240 ffff888103ac9c40 ffff8881097b5e90 ffff8881097b5e90
+[ 4278.052616] head: ffff888103b5ab00 00000000001c000f 00000001fdffffff 0000000000000000
+[ 4278.054397] head: 0004100000000002 ffff88813eeed601 ffffffffffffffff 0000000000000000
+[ 4278.056191] head: 0000000000000004 0000000000000000 00000000ffffffff 0000000000000000
+[ 4278.057980] page dumped because: kasan: bad access detected
+[ 4278.059248] 
+[ 4278.059757] Memory state around the buggy address:
+[ 4278.060870]  ffff888103b58180: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+[ 4278.062533]  ffff888103b58200: fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc fc
+[ 4278.064203] >ffff888103b58280: fa fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4278.065897]                    ^
+[ 4278.066732]  ffff888103b58300: fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb fb
+[ 4278.068412]  ffff888103b58380: fb fb fb fb fb fb fb fb fb fb fc fc fc fc fc fc
+[ 4278.070054] ==================================================================
+[ 4278.071738] Disabling lock debugging due to kernel taint
+[ 4278.078041] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4278.080840] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4278.083346] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4278.085867] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4278.088493] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4278.091157] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4282.657628] btrfs_repair_io_failure: 18 callbacks suppressed
+[ 4282.657639] BTRFS info (device vdb): read error corrected: ino 0 off 39108608 (dev /dev/vdd sector 18784)
+[ 4282.661577] BTRFS info (device vdb): read error corrected: ino 0 off 39112704 (dev /dev/vdd sector 18792)
+[ 4282.666900] BTRFS info (device vdb): read error corrected: ino 0 off 39116800 (dev /dev/vdd sector 18800)
+[ 4282.670371] BTRFS info (device vdb): read error corrected: ino 0 off 39120896 (dev /dev/vdd sector 18808)
