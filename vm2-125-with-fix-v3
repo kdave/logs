@@ -1,0 +1,692 @@
+btrfs/125        [02:37:15][ 4262.433821] run fstests btrfs/125 at 2024-08-20 02:37:15
+[ 4263.440722] BTRFS: device fsid 399a266a-719c-41a8-ab68-56ea55e52768 devid 1 transid 130 /dev/vda (254:0) scanned by mount (17556)
+[ 4263.445018] BTRFS info (device vda): first mount of filesystem 399a266a-719c-41a8-ab68-56ea55e52768
+[ 4263.447171] BTRFS info (device vda): using crc32c (crc32c-generic) checksum algorithm
+[ 4263.449308] BTRFS info (device vda): using free-space-tree
+[ 4264.795182] BTRFS info (device vda): last unmount of filesystem 399a266a-719c-41a8-ab68-56ea55e52768
+[ 4265.397498] BTRFS: device fsid d6d9cc44-9f86-4d02-8518-c00e21ef278e devid 1 transid 8 /dev/vdb (254:16) scanned by mkfs.btrfs (17795)
+[ 4265.400836] BTRFS: device fsid d6d9cc44-9f86-4d02-8518-c00e21ef278e devid 2 transid 8 /dev/vdc (254:32) scanned by mkfs.btrfs (17795)
+[ 4265.404019] BTRFS: device fsid d6d9cc44-9f86-4d02-8518-c00e21ef278e devid 3 transid 8 /dev/vdd (254:48) scanned by mkfs.btrfs (17795)
+[ 4265.429789] BTRFS info (device vdb): first mount of filesystem d6d9cc44-9f86-4d02-8518-c00e21ef278e
+[ 4265.431988] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4265.433888] BTRFS info (device vdb): using free-space-tree
+[ 4265.448237] BTRFS info (device vdb): checking UUID tree
+[ 4265.755771] BTRFS info (device vdb): last unmount of filesystem d6d9cc44-9f86-4d02-8518-c00e21ef278e
+[ 4265.837082] BTRFS: device fsid d6d9cc44-9f86-4d02-8518-c00e21ef278e devid 2 transid 9 /dev/vdc (254:32) scanned by mount (17827)
+[ 4265.840123] BTRFS: device fsid d6d9cc44-9f86-4d02-8518-c00e21ef278e devid 1 transid 9 /dev/vdb (254:16) scanned by mount (17827)
+[ 4265.844397] BTRFS info (device vdb): first mount of filesystem d6d9cc44-9f86-4d02-8518-c00e21ef278e
+[ 4265.846541] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4265.848405] BTRFS info (device vdb): using free-space-tree
+[ 4265.855091] BTRFS warning (device vdb): devid 3 uuid dc705692-2dd7-436a-a707-c1bd601657a4 is missing
+[ 4265.863046] BTRFS warning (device vdb): devid 3 uuid dc705692-2dd7-436a-a707-c1bd601657a4 is missing
+[ 4267.622088] BTRFS info (device vdb): last unmount of filesystem d6d9cc44-9f86-4d02-8518-c00e21ef278e
+[ 4267.914848] BTRFS info (device vdb): first mount of filesystem d6d9cc44-9f86-4d02-8518-c00e21ef278e
+[ 4267.917481] BTRFS info (device vdb): using crc32c (crc32c-generic) checksum algorithm
+[ 4267.919664] BTRFS info (device vdb): using free-space-tree
+[ 4267.985652] BTRFS info (device vdb): balance: start -d -m -s
+[ 4267.987556] BTRFS info (device vdb): relocating block group 2365194240 flags data|raid5
+[ 4268.217960] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4268.221552] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4268.224964] BTRFS error (device vdb): bad tree block start, mirror 1 want 39043072 have 30523392
+[ 4268.237245] BTRFS error (device vdb): bad tree block start, mirror 2 want 39043072 have 30523392
+[ 4920.836596] INFO: task btrfs:17871 blocked for more than 491 seconds.
+[ 4920.838586]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 4920.840109] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 4920.842081] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 4920.844332] Call Trace:
+[ 4920.845090]  <TASK>
+[ 4920.845755]  __schedule+0x9ca/0x1b10
+[ 4920.846732]  ? io_schedule_timeout+0x160/0x160
+[ 4920.847886]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 4920.849093]  schedule+0xe1/0x220
+[ 4920.849995]  io_schedule+0xca/0x140
+[ 4920.850958]  folio_wait_bit_common+0x2fa/0x890
+[ 4920.852105]  ? filemap_get_folios_contig+0x990/0x990
+[ 4920.853369]  ? lock_is_held_type+0xbe/0x110
+[ 4920.854470]  ? filemap_release_folio+0x210/0x210
+[ 4920.855661]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 4920.857100]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 4920.858521]  ? lock_release+0xf2/0x160
+[ 4920.859521]  __filemap_get_folio+0x46a/0x600
+[ 4920.860659]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 4920.861997]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 4920.863508]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 4920.865130]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 4920.866635]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 4920.868004]  ? preempt_count_add+0x79/0x150
+[ 4920.869124]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 4920.870602]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 4920.871955]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 4920.873593]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 4920.875072]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 4920.876435]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 4920.877746]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 4920.879226]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 4920.880440]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 4920.881751]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 4920.883002]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 4920.884357]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 4920.885613]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 4920.886882]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 4920.888227]  ? lockdep_hardirqs_on+0x78/0x100
+[ 4920.889396]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 4920.890744]  __x64_sys_ioctl+0x127/0x180
+[ 4920.891796]  do_syscall_64+0x6d/0x140
+[ 4920.892824]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 4920.894121] RIP: 0033:0x7f798f2cb70f
+[ 4920.895101] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 4920.897017] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 4920.898741] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 4920.900462] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 4920.902210] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 4920.903945] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 4920.905683]  </TASK>
+[ 4920.906372] 
+[ 4920.906372] Showing all locks held in the system:
+[ 4920.907985] 1 lock held by khungtaskd/42:
+[ 4920.909071]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 4920.911397] 2 locks held by 058/27529:
+[ 4920.912409]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 4920.914612]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 4920.916895] 3 locks held by btrfs/17871:
+[ 4920.917955]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 4920.920376]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 4920.922994]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 4920.925760] 
+[ 4920.926310] =============================================
+[ 4920.926310] 
+[ 5412.356620] INFO: task btrfs:17871 blocked for more than 983 seconds.
+[ 5412.358255]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 5412.359733] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 5412.361588] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 5412.363744] Call Trace:
+[ 5412.364443]  <TASK>
+[ 5412.365107]  __schedule+0x9ca/0x1b10
+[ 5412.366039]  ? io_schedule_timeout+0x160/0x160
+[ 5412.367124]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 5412.368242]  schedule+0xe1/0x220
+[ 5412.369129]  io_schedule+0xca/0x140
+[ 5412.370032]  folio_wait_bit_common+0x2fa/0x890
+[ 5412.371115]  ? filemap_get_folios_contig+0x990/0x990
+[ 5412.372304]  ? lock_is_held_type+0xbe/0x110
+[ 5412.373357]  ? filemap_release_folio+0x210/0x210
+[ 5412.374481]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 5412.375831]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 5412.377188]  ? lock_release+0xf2/0x160
+[ 5412.378146]  __filemap_get_folio+0x46a/0x600
+[ 5412.379206]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 5412.380470]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 5412.381937]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 5412.383437]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 5412.384883]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 5412.386195]  ? preempt_count_add+0x79/0x150
+[ 5412.387230]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 5412.388641]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 5412.389928]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 5412.391454]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 5412.392860]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 5412.394156]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 5412.395367]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 5412.396779]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 5412.397908]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 5412.399130]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 5412.400312]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 5412.401598]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 5412.402767]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 5412.403966]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 5412.405246]  ? lockdep_hardirqs_on+0x78/0x100
+[ 5412.406320]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 5412.407562]  __x64_sys_ioctl+0x127/0x180
+[ 5412.408573]  do_syscall_64+0x6d/0x140
+[ 5412.409517]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 5412.410723] RIP: 0033:0x7f798f2cb70f
+[ 5412.411645] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 5412.413444] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 5412.415049] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 5412.416673] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 5412.418272] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 5412.419879] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 5412.421508]  </TASK>
+[ 5412.422173] 
+[ 5412.422173] Showing all locks held in the system:
+[ 5412.423678] 1 lock held by khungtaskd/42:
+[ 5412.424691]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 5412.426868] 2 locks held by 058/27529:
+[ 5412.427811]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 5412.429880]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 5412.432000] 3 locks held by btrfs/17871:
+[ 5412.433001]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 5412.435264]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 5412.437715]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 5412.440280] 
+[ 5412.440820] =============================================
+[ 5412.440820] 
+[ 5903.876637] INFO: task btrfs:17871 blocked for more than 1474 seconds.
+[ 5903.878376]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 5903.879941] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 5903.881928] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 5903.884176] Call Trace:
+[ 5903.884935]  <TASK>
+[ 5903.885601]  __schedule+0x9ca/0x1b10
+[ 5903.886585]  ? io_schedule_timeout+0x160/0x160
+[ 5903.887737]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 5903.888943]  schedule+0xe1/0x220
+[ 5903.892909]  io_schedule+0xca/0x140
+[ 5903.893869]  folio_wait_bit_common+0x2fa/0x890
+[ 5903.895015]  ? filemap_get_folios_contig+0x990/0x990
+[ 5903.896266]  ? lock_is_held_type+0xbe/0x110
+[ 5903.897390]  ? filemap_release_folio+0x210/0x210
+[ 5903.898580]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 5903.900001]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 5903.901443]  ? lock_release+0xf2/0x160
+[ 5903.902446]  __filemap_get_folio+0x46a/0x600
+[ 5903.903569]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 5903.904923]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 5903.906451]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 5903.908044]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 5903.909566]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 5903.910929]  ? preempt_count_add+0x79/0x150
+[ 5903.912018]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 5903.913525]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 5903.914884]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 5903.916497]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 5903.917983]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 5903.919343]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 5903.920637]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 5903.922121]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 5903.923330]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 5903.924633]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 5903.925878]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 5903.927221]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 5903.928449]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 5903.929755]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 5903.931079]  ? lockdep_hardirqs_on+0x78/0x100
+[ 5903.932202]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 5903.933557]  __x64_sys_ioctl+0x127/0x180
+[ 5903.934611]  do_syscall_64+0x6d/0x140
+[ 5903.935607]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 5903.936921] RIP: 0033:0x7f798f2cb70f
+[ 5903.937895] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 5903.939789] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 5903.941526] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 5903.943249] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 5903.944979] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 5903.946695] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 5903.948410]  </TASK>
+[ 5903.949126] 
+[ 5903.949126] Showing all locks held in the system:
+[ 5903.950771] 1 lock held by khungtaskd/42:
+[ 5903.951840]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 5903.954185] 2 locks held by 058/27529:
+[ 5903.955199]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 5903.957399]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 5903.959655] 3 locks held by btrfs/17871:
+[ 5903.960716]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 5903.963128]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 5903.965722]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 5903.968464] 
+[ 5903.969037] =============================================
+[ 5903.969037] 
+[ 6395.396677] INFO: task btrfs:17871 blocked for more than 1966 seconds.
+[ 6395.398530]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 6395.400172] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 6395.402117] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 6395.404246] Call Trace:
+[ 6395.404976]  <TASK>
+[ 6395.405615]  __schedule+0x9ca/0x1b10
+[ 6395.406546]  ? io_schedule_timeout+0x160/0x160
+[ 6395.407652]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 6395.408803]  schedule+0xe1/0x220
+[ 6395.409663]  io_schedule+0xca/0x140
+[ 6395.410564]  folio_wait_bit_common+0x2fa/0x890
+[ 6395.411696]  ? filemap_get_folios_contig+0x990/0x990
+[ 6395.412911]  ? lock_is_held_type+0xbe/0x110
+[ 6395.413950]  ? filemap_release_folio+0x210/0x210
+[ 6395.415075]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 6395.416436]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 6395.417800]  ? lock_release+0xf2/0x160
+[ 6395.418762]  __filemap_get_folio+0x46a/0x600
+[ 6395.419820]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 6395.421111]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 6395.422546]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 6395.424065]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 6395.425518]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 6395.426818]  ? preempt_count_add+0x79/0x150
+[ 6395.427867]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 6395.429316]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 6395.430610]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 6395.432146]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 6395.433569]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 6395.434880]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 6395.436089]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 6395.437516]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 6395.438657]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 6395.439879]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 6395.441105]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 6395.442440]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 6395.443674]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 6395.444969]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 6395.446297]  ? lockdep_hardirqs_on+0x78/0x100
+[ 6395.447429]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 6395.448780]  __x64_sys_ioctl+0x127/0x180
+[ 6395.449827]  do_syscall_64+0x6d/0x140
+[ 6395.450836]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 6395.452118] RIP: 0033:0x7f798f2cb70f
+[ 6395.453113] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 6395.455010] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 6395.456739] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 6395.458460] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 6395.460167] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 6395.461903] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 6395.463613]  </TASK>
+[ 6395.464306] 
+[ 6395.464306] Showing all locks held in the system:
+[ 6395.465945] 1 lock held by khungtaskd/42:
+[ 6395.467010]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 6395.469354] 2 locks held by 058/27529:
+[ 6395.470370]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 6395.472574]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 6395.474832] 3 locks held by btrfs/17871:
+[ 6395.475878]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 6395.478361]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 6395.480846]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 6395.483436] 
+[ 6395.483972] =============================================
+[ 6395.483972] 
+[ 6886.916633] INFO: task btrfs:17871 blocked for more than 2457 seconds.
+[ 6886.918258]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 6886.919743] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 6886.921603] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 6886.923738] Call Trace:
+[ 6886.924441]  <TASK>
+[ 6886.925113]  __schedule+0x9ca/0x1b10
+[ 6886.926051]  ? io_schedule_timeout+0x160/0x160
+[ 6886.927140]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 6886.928268]  schedule+0xe1/0x220
+[ 6886.929159]  io_schedule+0xca/0x140
+[ 6886.930073]  folio_wait_bit_common+0x2fa/0x890
+[ 6886.931180]  ? filemap_get_folios_contig+0x990/0x990
+[ 6886.932405]  ? lock_is_held_type+0xbe/0x110
+[ 6886.933479]  ? filemap_release_folio+0x210/0x210
+[ 6886.934613]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 6886.935983]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 6886.937363]  ? lock_release+0xf2/0x160
+[ 6886.938327]  __filemap_get_folio+0x46a/0x600
+[ 6886.939435]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 6886.940739]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 6886.942225]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 6886.943753]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 6886.945239]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 6886.946552]  ? preempt_count_add+0x79/0x150
+[ 6886.947604]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 6886.949040]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 6886.950354]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 6886.951912]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 6886.953354]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 6886.954669]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 6886.955899]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 6886.957349]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 6886.958514]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 6886.959754]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 6886.960980]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 6886.962267]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 6886.963444]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 6886.964685]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 6886.965979]  ? lockdep_hardirqs_on+0x78/0x100
+[ 6886.970115]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 6886.971422]  __x64_sys_ioctl+0x127/0x180
+[ 6886.972542]  do_syscall_64+0x6d/0x140
+[ 6886.973588]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 6886.974899] RIP: 0033:0x7f798f2cb70f
+[ 6886.975836] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 6886.977624] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 6886.979222] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 6886.980861] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 6886.982468] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 6886.984071] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 6886.985701]  </TASK>
+[ 6886.986358] 
+[ 6886.986358] Showing all locks held in the system:
+[ 6886.987859] 1 lock held by khungtaskd/42:
+[ 6886.988886]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 6886.991092] 2 locks held by 058/27529:
+[ 6886.992084]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 6886.994192]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 6886.996331] 3 locks held by btrfs/17871:
+[ 6886.997356]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 6886.999666]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 6887.002175]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 6887.004829] 
+[ 6887.005359] =============================================
+[ 6887.005359] 
+[ 7378.436643] INFO: task btrfs:17871 blocked for more than 2949 seconds.
+[ 7378.438367]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 7378.439937] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 7378.441900] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 7378.444152] Call Trace:
+[ 7378.444915]  <TASK>
+[ 7378.445585]  __schedule+0x9ca/0x1b10
+[ 7378.446569]  ? io_schedule_timeout+0x160/0x160
+[ 7378.447712]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 7378.448918]  schedule+0xe1/0x220
+[ 7378.449829]  io_schedule+0xca/0x140
+[ 7378.450781]  folio_wait_bit_common+0x2fa/0x890
+[ 7378.451940]  ? filemap_get_folios_contig+0x990/0x990
+[ 7378.453229]  ? lock_is_held_type+0xbe/0x110
+[ 7378.454322]  ? filemap_release_folio+0x210/0x210
+[ 7378.455504]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 7378.456954]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 7378.458374]  ? lock_release+0xf2/0x160
+[ 7378.459384]  __filemap_get_folio+0x46a/0x600
+[ 7378.460505]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 7378.461868]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 7378.463399]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 7378.465014]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 7378.466532]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 7378.467885]  ? preempt_count_add+0x79/0x150
+[ 7378.468999]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 7378.470488]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 7378.471847]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 7378.473495]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 7378.474961]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 7378.476327]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 7378.477618]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 7378.479103]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 7378.480316]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 7378.481628]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 7378.482878]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 7378.484229]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 7378.485486]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 7378.486764]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 7378.488093]  ? lockdep_hardirqs_on+0x78/0x100
+[ 7378.489244]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 7378.490588]  __x64_sys_ioctl+0x127/0x180
+[ 7378.491639]  do_syscall_64+0x6d/0x140
+[ 7378.492653]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 7378.493940] RIP: 0033:0x7f798f2cb70f
+[ 7378.494914] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 7378.496836] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 7378.498548] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 7378.500268] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 7378.502006] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 7378.503748] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 7378.505491]  </TASK>
+[ 7378.506183] 
+[ 7378.506183] Showing all locks held in the system:
+[ 7378.507789] 1 lock held by khungtaskd/42:
+[ 7378.508883]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 7378.511207] 2 locks held by 058/27529:
+[ 7378.512219]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 7378.514431]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 7378.516707] 3 locks held by btrfs/17871:
+[ 7378.517762]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 7378.520180]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 7378.522781]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 7378.525552] 
+[ 7378.526095] =============================================
+[ 7378.526095] 
+[ 7869.956683] INFO: task btrfs:17871 blocked for more than 3440 seconds.
+[ 7869.958373]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 7869.959830] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 7869.961715] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 7869.963885] Call Trace:
+[ 7869.964630]  <TASK>
+[ 7869.965270]  __schedule+0x9ca/0x1b10
+[ 7869.966213]  ? io_schedule_timeout+0x160/0x160
+[ 7869.967321]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 7869.968476]  schedule+0xe1/0x220
+[ 7869.969369]  io_schedule+0xca/0x140
+[ 7869.970280]  folio_wait_bit_common+0x2fa/0x890
+[ 7869.971402]  ? filemap_get_folios_contig+0x990/0x990
+[ 7869.972633]  ? lock_is_held_type+0xbe/0x110
+[ 7869.973688]  ? filemap_release_folio+0x210/0x210
+[ 7869.974838]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 7869.976200]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 7869.977585]  ? lock_release+0xf2/0x160
+[ 7869.978560]  __filemap_get_folio+0x46a/0x600
+[ 7869.979638]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 7869.980958]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 7869.982428]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 7869.983961]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 7869.985443]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 7869.986745]  ? preempt_count_add+0x79/0x150
+[ 7869.987797]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 7869.989223]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 7869.990530]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 7869.992083]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 7869.993506]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 7869.994830]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 7869.996059]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 7869.997521]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 7869.998687]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 7869.999926]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 7870.001157]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 7870.002446]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 7870.003634]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 7870.004894]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 7870.006164]  ? lockdep_hardirqs_on+0x78/0x100
+[ 7870.007248]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 7870.008541]  __x64_sys_ioctl+0x127/0x180
+[ 7870.009565]  do_syscall_64+0x6d/0x140
+[ 7870.010515]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 7870.011760] RIP: 0033:0x7f798f2cb70f
+[ 7870.012721] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 7870.014546] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 7870.016191] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 7870.017852] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 7870.019485] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 7870.021154] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 7870.022786]  </TASK>
+[ 7870.023451] 
+[ 7870.023451] Showing all locks held in the system:
+[ 7870.025004] 1 lock held by khungtaskd/42:
+[ 7870.026030]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 7870.028242] 2 locks held by 058/27529:
+[ 7870.029225]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 7870.031308]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 7870.033481] 3 locks held by btrfs/17871:
+[ 7870.034501]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 7870.036816]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 7870.039292]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 7870.044995] 
+[ 7870.045530] =============================================
+[ 7870.045530] 
+[ 8361.476711] INFO: task btrfs:17871 blocked for more than 3932 seconds.
+[ 8361.478428]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 8361.479953] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 8361.481836] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 8361.484024] Call Trace:
+[ 8361.484774]  <TASK>
+[ 8361.485432]  __schedule+0x9ca/0x1b10
+[ 8361.486379]  ? io_schedule_timeout+0x160/0x160
+[ 8361.487501]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 8361.488676]  schedule+0xe1/0x220
+[ 8361.489551]  io_schedule+0xca/0x140
+[ 8361.490469]  folio_wait_bit_common+0x2fa/0x890
+[ 8361.491595]  ? filemap_get_folios_contig+0x990/0x990
+[ 8361.492834]  ? lock_is_held_type+0xbe/0x110
+[ 8361.493892]  ? filemap_release_folio+0x210/0x210
+[ 8361.495041]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 8361.496413]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 8361.497804]  ? lock_release+0xf2/0x160
+[ 8361.498783]  __filemap_get_folio+0x46a/0x600
+[ 8361.499867]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 8361.501190]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 8361.502685]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 8361.504209]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 8361.505675]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 8361.506982]  ? preempt_count_add+0x79/0x150
+[ 8361.508035]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 8361.509476]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 8361.510794]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 8361.512345]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 8361.513763]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 8361.515078]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 8361.516309]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 8361.517758]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 8361.518925]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 8361.520157]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 8361.521373]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 8361.522660]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 8361.523851]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 8361.525090]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 8361.526366]  ? lockdep_hardirqs_on+0x78/0x100
+[ 8361.527465]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 8361.528755]  __x64_sys_ioctl+0x127/0x180
+[ 8361.529761]  do_syscall_64+0x6d/0x140
+[ 8361.530714]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 8361.531939] RIP: 0033:0x7f798f2cb70f
+[ 8361.532901] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 8361.534702] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 8361.536347] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 8361.537986] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 8361.539609] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 8361.541249] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 8361.542887]  </TASK>
+[ 8361.543547] 
+[ 8361.543547] Showing all locks held in the system:
+[ 8361.545079] 1 lock held by khungtaskd/42:
+[ 8361.546099]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 8361.548268] 2 locks held by 058/27529:
+[ 8361.549259]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 8361.551316]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 8361.553487] 3 locks held by btrfs/17871:
+[ 8361.554489]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 8361.556790]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 8361.559243]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 8361.561837] 
+[ 8361.562378] =============================================
+[ 8361.562378] 
+[ 8852.996752] INFO: task btrfs:17871 blocked for more than 4423 seconds.
+[ 8852.998425]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 8852.999919] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 8853.001858] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 8853.004059] Call Trace:
+[ 8853.004790]  <TASK>
+[ 8853.005431]  __schedule+0x9ca/0x1b10
+[ 8853.006360]  ? io_schedule_timeout+0x160/0x160
+[ 8853.007466]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 8853.008602]  schedule+0xe1/0x220
+[ 8853.009493]  io_schedule+0xca/0x140
+[ 8853.010427]  folio_wait_bit_common+0x2fa/0x890
+[ 8853.011537]  ? filemap_get_folios_contig+0x990/0x990
+[ 8853.012759]  ? lock_is_held_type+0xbe/0x110
+[ 8853.013815]  ? filemap_release_folio+0x210/0x210
+[ 8853.014951]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 8853.016345]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 8853.017803]  ? lock_release+0xf2/0x160
+[ 8853.018813]  __filemap_get_folio+0x46a/0x600
+[ 8853.019937]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 8853.021307]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 8853.022841]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 8853.024453]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 8853.025994]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 8853.027374]  ? preempt_count_add+0x79/0x150
+[ 8853.028479]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 8853.029998]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 8853.031377]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 8853.033019]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 8853.034506]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 8853.035869]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 8853.037185]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 8853.038681]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 8853.039900]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 8853.041219]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 8853.042490]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 8853.043857]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 8853.045127]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 8853.046412]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 8853.047750]  ? lockdep_hardirqs_on+0x78/0x100
+[ 8853.048917]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 8853.050267]  __x64_sys_ioctl+0x127/0x180
+[ 8853.051323]  do_syscall_64+0x6d/0x140
+[ 8853.052317]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 8853.053632] RIP: 0033:0x7f798f2cb70f
+[ 8853.054609] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 8853.056505] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 8853.058247] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 8853.059974] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 8853.061724] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 8853.063461] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 8853.065213]  </TASK>
+[ 8853.065908] 
+[ 8853.065908] Showing all locks held in the system:
+[ 8853.067529] 1 lock held by khungtaskd/42:
+[ 8853.068603]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 8853.070950] 2 locks held by 058/27529:
+[ 8853.071965]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 8853.074181]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 8853.076447] 3 locks held by btrfs/17871:
+[ 8853.077526]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 8853.079950]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 8853.082568]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 8853.085280] 
+[ 8853.085797] =============================================
+[ 8853.085797] 
+[ 9344.516710] INFO: task btrfs:17871 blocked for more than 4915 seconds.
+[ 9344.518370]       Not tainted 6.11.0-rc3-next-20240816-default+ #81
+[ 9344.519794] "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+[ 9344.521662] task:btrfs           state:D stack:23472 pid:17871 tgid:17871 ppid:17428  flags:0x00004000
+[ 9344.523769] Call Trace:
+[ 9344.524480]  <TASK>
+[ 9344.525144]  __schedule+0x9ca/0x1b10
+[ 9344.526065]  ? io_schedule_timeout+0x160/0x160
+[ 9344.527142]  ? __lock_release.isra.0+0x4a5/0xa10
+[ 9344.528270]  schedule+0xe1/0x220
+[ 9344.529148]  io_schedule+0xca/0x140
+[ 9344.530055]  folio_wait_bit_common+0x2fa/0x890
+[ 9344.531144]  ? filemap_get_folios_contig+0x990/0x990
+[ 9344.532315]  ? lock_is_held_type+0xbe/0x110
+[ 9344.533373]  ? filemap_release_folio+0x210/0x210
+[ 9344.534513]  ? btrfs_put_transaction+0x3e0/0x3e0 [btrfs]
+[ 9344.535853]  ? trace_event_raw_event_sched_switch+0x450/0x450
+[ 9344.537208]  ? lock_release+0xf2/0x160
+[ 9344.538165]  __filemap_get_folio+0x46a/0x600
+[ 9344.539212]  relocate_one_folio+0x308/0xff0 [btrfs]
+[ 9344.540480]  ? btrfs_should_cancel_balance+0x130/0x130 [btrfs]
+[ 9344.541954]  ? setup_relocation_extent_mapping+0x2a1/0x3d0 [btrfs]
+[ 9344.543451]  relocate_file_extent_cluster+0x29c/0x370 [btrfs]
+[ 9344.544903]  ? relocate_one_folio+0xff0/0xff0 [btrfs]
+[ 9344.546197]  ? preempt_count_add+0x79/0x150
+[ 9344.550275]  ? balance_dirty_pages_ratelimited_flags+0x33a/0x670
+[ 9344.551674]  relocate_block_group+0x63b/0xd20 [btrfs]
+[ 9344.552989]  ? relocate_data_extent.constprop.0+0x650/0x650 [btrfs]
+[ 9344.554521]  btrfs_relocate_block_group+0x487/0x980 [btrfs]
+[ 9344.555911]  btrfs_relocate_chunk+0x11a/0x320 [btrfs]
+[ 9344.557221]  __btrfs_balance+0x59c/0x9b0 [btrfs]
+[ 9344.558442]  ? btrfs_relocate_sys_chunks+0x3a0/0x3a0 [btrfs]
+[ 9344.559846]  ? __mutex_unlock_slowpath+0x6f/0x630
+[ 9344.561015]  ? btrfs_balance+0xc30/0x1660 [btrfs]
+[ 9344.562236]  btrfs_balance+0xc9e/0x1660 [btrfs]
+[ 9344.563434]  btrfs_ioctl_balance+0x483/0x770 [btrfs]
+[ 9344.564745]  btrfs_ioctl+0x10e9/0x22a0 [btrfs]
+[ 9344.565927]  ? btrfs_uring_cmd+0xb0/0xb0 [btrfs]
+[ 9344.567123]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 9344.568379]  ? lockdep_hardirqs_on+0x78/0x100
+[ 9344.569468]  ? __call_rcu_common.constprop.0+0x334/0x650
+[ 9344.570725]  __x64_sys_ioctl+0x127/0x180
+[ 9344.571722]  do_syscall_64+0x6d/0x140
+[ 9344.572680]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[ 9344.573892] RIP: 0033:0x7f798f2cb70f
+[ 9344.574811] RSP: 002b:00007fff418a2ef0 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+[ 9344.576553] RAX: ffffffffffffffda RBX: 0000000000000003 RCX: 00007f798f2cb70f
+[ 9344.578182] RDX: 00007fff418a2fd0 RSI: 00000000c4009420 RDI: 0000000000000003
+[ 9344.579794] RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+[ 9344.581446] R10: 0000000000000000 R11: 0000000000000246 R12: 00007fff418a4fe6
+[ 9344.583063] R13: 00007fff418a2fd0 R14: 0000000000000002 R15: 000055f7de6ff048
+[ 9344.584712]  </TASK>
+[ 9344.585367] Future hung task reports are suppressed, see sysctl kernel.hung_task_warnings
+[ 9344.587250] 
+[ 9344.587250] Showing all locks held in the system:
+[ 9344.588799] 1 lock held by khungtaskd/42:
+[ 9344.589821]  #0: ffffffff9769f500 (rcu_read_lock){....}-{1:2}, at: rcu_lock_acquire.constprop.0+0x7/0x30
+[ 9344.591983] 2 locks held by 058/27529:
+[ 9344.592966]  #0: ffff888101ef50a8 (&tty->ldisc_sem){++++}-{0:0}, at: tty_ldisc_ref_wait+0x24/0x70
+[ 9344.595039]  #1: ffffc900000fc2f8 (&ldata->atomic_read_lock){+.+.}-{3:3}, at: n_tty_read+0xc4e/0x12f0
+[ 9344.597187] 3 locks held by btrfs/17871:
+[ 9344.598180]  #0: ffff88810ae14438 (sb_writers#10){.+.+}-{0:0}, at: btrfs_ioctl_balance+0xbd/0x770 [btrfs]
+[ 9344.600448]  #1: ffff88810be0a398 (&fs_info->reclaim_bgs_lock){+.+.}-{3:3}, at: __btrfs_balance+0x396/0x9b0 [btrfs]
+[ 9344.602915]  #2: ffff88810be08900 (&fs_info->cleaner_mutex){+.+.}-{3:3}, at: btrfs_relocate_block_group+0x47f/0x980 [btrfs]
+[ 9344.605507] 
+[ 9344.606028] =============================================
+[ 9344.606028] 
