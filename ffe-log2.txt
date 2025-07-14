@@ -1,0 +1,489 @@
+Attaching 8 probes...
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 6, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 33, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 33, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 44, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 52, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 52, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 61, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 75, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 79, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 89, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 105, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 112, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 123, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 150, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 150, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 167, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 267, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 280, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 6, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 322, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 11, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 6, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 5, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 5, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 8, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 35, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 35, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 44, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 83, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 94, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 136, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 14, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 165, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 267, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 4, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 280, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 322, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 6, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 6, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 32, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 21128, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 57, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 16091, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 21, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 3, bgs_tried: 14, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 65532, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 26, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 3, bgs_tried: 6, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 19, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 30852, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 13497, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 376, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 33, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 33, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 44, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 52, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 52, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 105, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 112, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 123, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 150, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 150, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 267, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 280, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 322, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 11, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 2, bgs_tried: 6174, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 15445, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 9, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 7, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 35, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 35, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 44, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 165, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 167, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 167, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 267, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 280, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 322, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 6130, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 18, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 11, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 14, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+^Cffe completed. retval: 0, success: 0, loops: 0, bgs_tried: 0, chunk_alloc: 0
+
+
+@bg_hist:
+[0]                    1 |                                                    |
+[1]                  175 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+[2, 4)                18 |@@@@@                                               |
+[4, 8)                25 |@@@@@@@                                             |
+[8, 16)               24 |@@@@@@@                                             |
+[16, 32)               4 |@                                                   |
+[32, 64)              33 |@@@@@@@@@                                           |
+[64, 128)             11 |@@@                                                 |
+[128, 256)            91 |@@@@@@@@@@@@@@@@@@@@@@@@@@@                         |
+[256, 512)            44 |@@@@@@@@@@@@@                                       |
+[512, 1K)              0 |                                                    |
+[1K, 2K)               0 |                                                    |
+[2K, 4K)               0 |                                                    |
+[4K, 8K)               2 |                                                    |
+[8K, 16K)              3 |                                                    |
+[16K, 32K)             2 |                                                    |
+[32K, 64K)             1 |                                                    |
+
+
+@chunk_allocs_count[1]: 18
+@chunk_allocs_count[0]: 416
+
+
+
+
+
+@loops_count[2]: 1
+@loops_count[3]: 2
+@loops_count[4]: 16
+@loops_count[0]: 187
+@loops_count[1]: 228
+@success_count[0]: 1
+@success_count[1]: 433
+
+@sz_hist:
+[4K, 8K)             127 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@   |
+[8K, 16K)             47 |@@@@@@@@@@@@@@@@@@                                  |
+[16K, 32K)            19 |@@@@@@@                                             |
+[32K, 64K)            16 |@@@@@@                                              |
+[64K, 128K)            6 |@@                                                  |
+[128K, 256K)          12 |@@@@                                                |
+[256K, 512K)         133 |@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@|
+[512K, 1M)             0 |                                                    |
+[1M, 2M)               0 |                                                    |
+[2M, 4M)              45 |@@@@@@@@@@@@@@@@@                                   |
+[4M, 8M)               0 |                                                    |
+[8M, 16M)              0 |                                                    |
+[16M, 32M)             2 |                                                    |
+[32M, 64M)             6 |@@                                                  |
+[64M, 128M)            3 |@                                                   |
+[128M, 256M)          18 |@@@@@@@                                             |
