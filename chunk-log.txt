@@ -1,0 +1,77 @@
+trace pipe (look for offset/bytenr)
+
+           <...>-3309201 [002] ..... 4542972.631600: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26035996196864 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3309201 [002] ...1. 4542972.631702: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26035996196864 len=1073741824 used=0 flags=1(DATA)
+           <...>-3309201 [002] ..... 4542972.632414: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26037069938688 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3309201 [002] ...1. 4542972.632428: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26037069938688 len=1073741824 used=0 flags=1(DATA)
+           <...>-3309201 [002] ..... 4542972.640893: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26038143680512 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3309201 [002] ...1. 4542972.640900: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26038143680512 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:17-3309201 [003] ..... 4542972.661604: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26039217422336 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:17-3309201 [003] ...1. 4542972.661621: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26039217422336 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [011] ..... 4543046.001272: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26040291164160 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [011] ...1. 4543046.001350: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26040291164160 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [003] ..... 4543046.173289: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26041364905984 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [003] ...1. 4543046.173309: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26041364905984 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:18-3281698 [002] ..... 4543061.825709: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26042438647808 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:18-3281698 [002] ...1. 4543061.825775: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26042438647808 len=1073741824 used=0 flags=1(DATA)
+           <...>-3308179 [002] ..... 4543061.849093: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26043512389632 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3308179 [002] ...1. 4543061.849111: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26043512389632 len=1073741824 used=0 flags=1(DATA)
+           <...>-3308179 [002] ..... 4543061.856530: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26044586131456 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3308179 [002] ...1. 4543061.856550: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26044586131456 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:24-3281712 [008] ..... 4543061.857757: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26045659873280 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:24-3281712 [008] ...1. 4543061.857769: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26045659873280 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:6-3308179 [014] ..... 4543061.866803: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26046733615104 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:6-3308179 [014] ...1. 4543061.866813: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26046733615104 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [012] ..... 4543067.456168: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26047807356928 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [012] ...1. 4543067.456200: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26047807356928 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [003] ..... 4543067.457505: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26048881098752 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [003] ...1. 4543067.457519: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26048881098752 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [003] ..... 4543067.458000: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26049954840576 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [003] ...1. 4543067.458012: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26049954840576 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [003] ..... 4543067.460383: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26051028582400 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [003] ...1. 4543067.460393: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26051028582400 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [003] ..... 4543067.460791: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26052102324224 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [003] ...1. 4543067.460801: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26052102324224 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:12-3281514 [003] ..... 4543067.464397: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26053176066048 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:12-3281514 [003] ...1. 4543067.464414: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26053176066048 len=1073741824 used=0 flags=1(DATA)
+           <...>-3308187 [009] ..... 4543072.576472: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26054249807872 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3308187 [009] ...1. 4543072.576868: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26054249807872 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:15-3308187 [003] ..... 4543072.595063: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26055323549696 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:15-3308187 [003] ...1. 4543072.595106: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26055323549696 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:15-3308187 [004] ..... 4543072.622463: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26056397291520 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:15-3308187 [004] ...1. 4543072.622524: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26056397291520 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:15-3308187 [003] ..... 4543072.629162: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26057471033344 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:15-3308187 [003] ...1. 4543072.629203: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26057471033344 len=1073741824 used=0 flags=1(DATA)
+  kworker/u64:17-3309201 [007] ..... 4543201.877449: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26058544775168 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+  kworker/u64:17-3309201 [007] ...1. 4543201.877790: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26058544775168 len=1073741824 used=0 flags=1(DATA)
+           <...>-2348    [015] ...1. 4543233.857322: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26058544775168 len=1073741824 used=0 flags=1(DATA)
+           <...>-3287037 [007] ..... 4543238.465301: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26059618516992 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3287037 [007] ...1. 4543238.465570: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26059618516992 len=1073741824 used=0 flags=1(DATA)
+           
+           
+new chunks:
+
+    1     306       Data/single   324308828160 1073741824   325382569984    6197 26034922455040  85.78
+    1     308       Data/single   326456311808 1073741824   327530053632    6198 26035996196864   0.30
+    1     309       Data/single   327530053632 1073741824   328603795456    6199 26037069938688   0.03
+    1     310       Data/single   328603795456 1073741824   329677537280    6200 26038143680512   0.14
+    1     311       Data/single   329677537280 1073741824   330751279104    6201 26039217422336 100.00
+    1     313       Data/single   331825020928 1073741824   332898762752    6202 26040291164160  87.50
+    1     314       Data/single   332898762752 1073741824   333972504576    6203 26041364905984   0.48
+    1     315       Data/single   333972504576 1073741824   335046246400    6204 26042438647808   0.00
+    1     316       Data/single   335046246400 1073741824   336119988224    6205 26043512389632  12.50
+    1     317       Data/single   336119988224 1073741824   337193730048    6206 26044586131456   0.02
+    1     318       Data/single   337193730048 1073741824   338267471872    6207 26045659873280   0.00
+    1     319       Data/single   338267471872 1073741824   339341213696    6208 26046733615104  66.95
+    1     321       Data/single   340414955520 1073741824   341488697344    6209 26047807356928   0.00
+    1     322       Data/single   341488697344 1073741824   342562439168    6210 26048881098752   0.17
+    1     325       Data/single   344709922816 1073741824   345783664640    6211 26049954840576   0.01
+    1     330       Data/single   350078631936 1073741824   351152373760    6212 26051028582400   0.15
+    1     332       Data/single   352226115584 1073741824   353299857408    6213 26052102324224   0.01
+    1     335       Data/single   355447341056 1073741824   356521082880    6214 26053176066048  10.52
+    1     337       Data/single   357594824704 1073741824   358668566528    6215 26054249807872   0.01
+    1     340       Data/single   360816050176 1073741824   361889792000    6216 26055323549696  12.50
+    1     342       Data/single   362963533824 1073741824   364037275648    6217 26056397291520   0.01
+    1     346       Data/single   367258501120 1073741824   368332242944    6218 26057471033344   9.77
+    1     347       Data/single   368332242944 1073741824   369405984768    6219 26058544775168   0.00
+    1     349       Data/single   370479726592 1073741824   371553468416    6220 26059618516992   0.02
