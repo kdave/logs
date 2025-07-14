@@ -1,0 +1,20 @@
+           <...>-3353852 [010] ..... 4545725.324401: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26081093353472 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3353852 [010] ...1. 4545725.324509: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26081093353472 len=1073741824 used=0 flags=1(DATA)
+           <...>-3339991 [002] ..... 4545725.340090: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26082167095296 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3339991 [002] ...1. 4545725.340109: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26082167095296 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:5-3339991 [005] ..... 4545725.348686: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26083240837120 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:5-3339991 [005] ...1. 4545725.348709: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26083240837120 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:5-3339991 [005] ..... 4545725.352365: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26084314578944 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:5-3339991 [005] ...1. 4545725.352382: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26084314578944 len=1073741824 used=0 flags=1(DATA)
+           <...>-3346576 [010] ..... 4545740.649806: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26085388320768 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+           <...>-3346576 [010] ...1. 4545740.649925: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26085388320768 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:1-3346576 [010] ..... 4545740.651923: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26086462062592 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:1-3346576 [010] ...1. 4545740.651935: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26086462062592 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:1-3346576 [010] ..... 4545740.663358: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26087535804416 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:1-3346576 [010] ...1. 4545740.663380: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26087535804416 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:1-3346576 [010] ..... 4545740.666993: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26088609546240 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:1-3346576 [010] ...1. 4545740.667004: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26088609546240 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:1-3346576 [010] ..... 4545740.668641: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26089683288064 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:1-3346576 [010] ...1. 4545740.668680: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26089683288064 len=1073741824 used=0 flags=1(DATA)
+   kworker/u64:1-3346576 [010] ..... 4545740.673085: btrfs_add_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: block_group offset=26090757029888 size=1073741824 flags=1(DATA) bytes_used=0 bytes_super=0 create=1
+   kworker/u64:1-3346576 [010] ...1. 4545740.673097: btrfs_add_unused_block_group: c881fff5-0e3c-4c31-b4b1-35dab7e821c9: bg bytenr=26090757029888 len=1073741824 used=0 flags=1(DATA)

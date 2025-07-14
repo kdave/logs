@@ -1,0 +1,472 @@
+Attaching 8 probes...
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 14, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 14, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 44, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 52, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 71, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 75, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 75, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 75, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 105, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 108, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 112, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 123, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 124, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 133, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 150, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 150, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 8, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 9, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 267, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 280, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 322, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 33, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 5, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 24856, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 40, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 8101, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 9, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 7121, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 19, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 18632, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 95, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 24597, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 9, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 40307, chunk_alloc: 0
+kworker/u64:15 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        submit_compressed_extents+171
+        btrfs_work_helper+327
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+kworker/u64:5 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+kworker/u64:5 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9562, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+kworker/u64:5 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 413, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 33, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 35, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 35, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 39, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 83, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 94, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 15, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 14, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 105, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 129, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 138, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 152, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 156, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 158, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 161, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 167, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 167, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 167, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 169, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 170, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 6, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 2, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 267, chunk_alloc: 0
+kworker/u64:1 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 6, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+kworker/u64:1 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 20, chunk_alloc: 1
+kworker/u64:1 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 16528, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+kworker/u64:1 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 122, chunk_alloc: 1
+kworker/u64:1 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 3, bgs_tried: 6, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+kworker/u64:1 
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_prog_457631b16f192b02_fentry_btrfs_btrfs_chunk_alloc_8+595
+        bpf_trampoline_152471464892+75
+        btrfs_chunk_alloc+9
+        find_free_extent+3124
+        bpf_trampoline_152471466821+129
+        find_free_extent+5
+        btrfs_reserve_extent+302
+        cow_file_range+338
+        btrfs_run_delalloc_range+453
+        writepage_delalloc+1007
+        extent_write_cache_pages+544
+        btrfs_writepages+118
+        do_writepages+226
+        __writeback_single_inode+65
+        writeback_sb_inodes+541
+        __writeback_inodes_wb+76
+        wb_writeback+413
+        wb_workfn+668
+        process_one_work+379
+        worker_thread+718
+        kthread+236
+        ret_from_fork+49
+        ret_from_fork_asm+26
+
+ffe completed. retval: 0, success: 1, loops: 4, bgs_tried: 9, chunk_alloc: 1
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 280, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 322, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 332, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 3, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 4, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 12, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 0, bgs_tried: 1, chunk_alloc: 0
+ffe completed. retval: 0, success: 1, loops: 1, bgs_tried: 391, chunk_alloc: 0
