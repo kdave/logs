@@ -1,0 +1,105 @@
+[   78.092479] run fstests btrfs/004 at 2025-08-05 10:53:54
+[   78.363360] BTRFS: device fsid b923217f-ca7b-4290-897f-6a87938685bf devid 1 transid 9 /dev/vda (254:0) scanned by mount (31573)
+[   78.365673] BTRFS info (device vda): first mount of filesystem b923217f-ca7b-4290-897f-6a87938685bf
+[   78.366829] BTRFS info (device vda): using crc32c (crc32c-lib) checksum algorithm
+[   78.367434] BTRFS info (device vda): using free-space-tree
+[   78.527579] BTRFS: device fsid 7c9bea07-9b96-4edd-b0e5-eff9c74247fd devid 1 transid 8 /dev/vdb (254:16) scanned by mount (31649)
+[   78.529058] BTRFS info (device vdb): first mount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   78.529720] BTRFS info (device vdb): using crc32c (crc32c-lib) checksum algorithm
+[   78.530280] BTRFS info (device vdb): using free-space-tree
+[   78.534887] BTRFS info (device vdb): checking UUID tree
+
+[   78.611607] ============================================
+[   78.612089] WARNING: possible recursive locking detected
+[   78.612575] 6.16.0-default+ #588 Not tainted
+[   78.612994] --------------------------------------------
+[   78.613482] fsstress/31667 is trying to acquire lock:
+[   78.613951] ffff8881ce71db48 (&ei->log_mutex){+.+.}-{4:4}, at: need_log_inode+0x3a/0x70 [btrfs]
+[   78.614780] 
+               but task is already holding lock:
+[   78.615326] ffff8881ce53db48 (&ei->log_mutex){+.+.}-{4:4}, at: btrfs_log_inode+0x112/0xd20 [btrfs]
+[   78.616172] 
+               other info that might help us debug this:
+[   78.616768]  Possible unsafe locking scenario:
+
+[   78.617321]        CPU0
+[   78.617585]        ----
+[   78.617845]   lock(&ei->log_mutex);
+[   78.618188]   lock(&ei->log_mutex);
+[   78.618523] 
+                *** DEADLOCK ***
+
+[   78.619098]  May be due to missing lock nesting notation
+
+[   78.619706] 8 locks held by fsstress/31667:
+[   78.620107]  #0: ffff8881d2884440 (sb_writers#8){.+.+}-{0:0}, at: do_renameat2+0x281/0x630
+[   78.620850]  #1: ffff8881ce71a028 (&type->i_mutex_dir_key#6/1){+.+.}-{4:4}, at: do_renameat2+0x5c9/0x630
+[   78.621672]  #2: ffff8881ce53b218 (&sb->s_type->i_mutex_key#10){++++}-{4:4}, at: lock_two_nondirectories+0x5f/0x90
+[   78.622578]  #3: ffff8881ce53def0 (&sb->s_type->i_mutex_key#10/4){+.+.}-{4:4}, at: vfs_rename+0x5f6/0xf80
+[   78.623321]  #4: ffff8881d2884660 (sb_internal#2){.+.+}-{0:0}, at: btrfs_rename_exchange+0x20a/0xf90 [btrfs]
+[   78.624039]  #5: ffff8881c96d6840 (btrfs_trans_num_writers){++++}-{0:0}, at: join_transaction+0x1c9/0x5b0 [btrfs]
+[   78.624768]  #6: ffff8881c96d6870 (btrfs_trans_num_extwriters){++++}-{0:0}, at: join_transaction+0x1c9/0x5b0 [btrfs]
+[   78.625513]  #7: ffff8881ce53db48 (&ei->log_mutex){+.+.}-{4:4}, at: btrfs_log_inode+0x112/0xd20 [btrfs]
+[   78.626196] 
+               stack backtrace:
+[   78.626544] CPU: 3 UID: 0 PID: 31667 Comm: fsstress Not tainted 6.16.0-default+ #588 PREEMPT(full) 
+[   78.626546] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-2-gc13ff2cd-prebuilt.qemu.org 04/01/2014
+[   78.626547] Call Trace:
+[   78.626548]  <TASK>
+[   78.626548]  dump_stack_lvl+0x61/0x80
+[   78.626550]  print_deadlock_bug.cold+0xbd/0xca
+[   78.626553]  validate_chain+0x419/0x890
+[   78.626556]  __lock_acquire+0x575/0xc00
+[   78.626556]  ? local_clock+0xc/0x20
+[   78.626557]  ? __lock_release.isra.0+0x165/0x2b0
+[   78.626558]  lock_acquire.part.0+0x62/0x1b0
+[   78.626559]  ? need_log_inode+0x3a/0x70 [btrfs]
+[   78.626593]  ? lock_acquire+0xea/0x130
+[   78.626594]  ? need_log_inode+0x3a/0x70 [btrfs]
+[   78.626625]  __mutex_lock+0xc5/0x11e0
+[   78.626627]  ? need_log_inode+0x3a/0x70 [btrfs]
+[   78.626658]  ? lockdep_hardirqs_on_prepare.part.0+0xa2/0x140
+[   78.626660]  ? need_log_inode+0x3a/0x70 [btrfs]
+[   78.626692]  ? need_log_inode+0x3a/0x70 [btrfs]
+[   78.626722]  need_log_inode+0x3a/0x70 [btrfs]
+[   78.626751]  add_conflicting_inode+0x5d/0x1f0 [btrfs]
+[   78.626779]  copy_inode_items_to_log+0x4cd/0x4f0 [btrfs]
+[   78.626808]  btrfs_log_inode+0x300/0xd20 [btrfs]
+[   78.626835]  ? start_log_trans+0x16a/0x2f0 [btrfs]
+[   78.626862]  btrfs_log_inode_parent+0xb3/0x290 [btrfs]
+[   78.626889]  btrfs_log_new_name+0x384/0x490 [btrfs]
+[   78.626921]  btrfs_rename_exchange+0x694/0xf90 [btrfs]
+[   78.626954]  btrfs_rename2+0x4a/0x60 [btrfs]
+[   78.626985]  vfs_rename+0x7a3/0xf80
+[   78.626986]  ? __d_lookup+0xc0/0x230
+[   78.626987]  ? do_renameat2+0x47c/0x630
+[   78.626989]  do_renameat2+0x47c/0x630
+[   78.626990]  __x64_sys_renameat2+0x42/0x50
+[   78.626991]  do_syscall_64+0x5e/0x260
+[   78.626993]  entry_SYSCALL_64_after_hwframe+0x4b/0x53
+[   78.626994] RIP: 0033:0x7f47fa3fc4ce
+[   78.626996] Code: 0f 1f 84 00 00 00 00 00 0f 1f 40 00 90 90 90 90 90 90 90 90 90 90 90 90 90 90 f3 0f 1e fa 90 90 49 89 ca b8 3c 01 00 00 0f 05 <48> 3d 00 f0 ff ff 77 0a c3 66 0f 1f 84 00 00 00 00 00 48 8b 15 f1
+[   78.626997] RSP: 002b:00007ffeef3234c8 EFLAGS: 00000202 ORIG_RAX: 000000000000013c
+[   78.626998] RAX: ffffffffffffffda RBX: 0000000000000002 RCX: 00007f47fa3fc4ce
+[   78.626999] RDX: 00000000ffffff9c RSI: 0000000030de9e80 RDI: 00000000ffffff9c
+[   78.627000] RBP: 00007ffeef323510 R08: 0000000000000002 R09: 0000000030de99b0
+[   78.627000] R10: 0000000030de98f0 R11: 0000000000000202 R12: 0000000000000000
+[   78.627001] R13: 0000000000000002 R14: 00007ffeef323790 R15: 00007ffeef3237a0
+[   78.627001]  </TASK>
+[   79.369979] BTRFS info (device vdb): last unmount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   79.377359] BTRFS: device fsid 7c9bea07-9b96-4edd-b0e5-eff9c74247fd devid 1 transid 37 /dev/vdb (254:16) scanned by mount (31682)
+[   79.378677] BTRFS info (device vdb): first mount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   79.379465] BTRFS info (device vdb): using crc32c (crc32c-lib) checksum algorithm
+[   79.380137] BTRFS info (device vdb): using free-space-tree
+[   80.361218] BTRFS info (device vdb): last unmount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   80.368075] BTRFS: device fsid 7c9bea07-9b96-4edd-b0e5-eff9c74247fd devid 1 transid 68 /dev/vdb (254:16) scanned by mount (31708)
+[   80.369578] BTRFS info (device vdb): first mount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   80.370537] BTRFS info (device vdb): using crc32c (crc32c-lib) checksum algorithm
+[   80.371344] BTRFS info (device vdb): using free-space-tree
+[   97.475333] BTRFS info (device vda): last unmount of filesystem b923217f-ca7b-4290-897f-6a87938685bf
+[   97.495363] BTRFS info (device vdb): last unmount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   97.525191] BTRFS: device fsid 7c9bea07-9b96-4edd-b0e5-eff9c74247fd devid 1 transid 779 /dev/vdb (254:16) scanned by mount (24330)
+[   97.526353] BTRFS info (device vdb): first mount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd
+[   97.527023] BTRFS info (device vdb): using crc32c (crc32c-lib) checksum algorithm
+[   97.527562] BTRFS info (device vdb): using free-space-tree
+[   97.533863] BTRFS info (device vdb): last unmount of filesystem 7c9bea07-9b96-4edd-b0e5-eff9c74247fd

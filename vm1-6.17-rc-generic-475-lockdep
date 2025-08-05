@@ -1,0 +1,108 @@
+generic/475        [13:07:22][ 8085.196188] run fstests generic/475 at 2025-08-05 13:07:22
+...
+[ 8412.598997] BTRFS info (device dm-0 state EA): forced readonly
+[ 8412.599723] BTRFS warning (device dm-0 state EA): direct IO failed ino 33923 op 0x8800 offset 0xd1000 len 12288 err no 10
+[ 8412.599747] BTRFS error (device dm-0 state EA): run_delalloc_nocow failed, root=5 inode=32764 start=286720 len=73728: -5
+[ 8412.600590] BTRFS: error (device dm-0 state EA) in btrfs_add_link:6682: errno=-5 IO failure
+[ 8412.600745] BTRFS: error (device dm-0 state EA) in btrfs_run_delayed_refs:2161: errno=-5 IO failure
+[ 8412.601298] BTRFS error (device dm-0 state EA): failed to run delalloc range, root=5 ino=32764 folio=286720 submit_bitmap=0 start=286720 len=73728: -5
+[ 8412.601862] BTRFS: error (device dm-0 state EA) in btrfs_create_new_inode:6618: errno=-5 IO failure
+[ 8412.602190] BTRFS warning (device dm-0 state EA): direct IO failed ino 32754 op 0x8800 offset 0x6d000 len 40960 err no 10
+[ 8412.603429] BTRFS error (device dm-0 state EA): run_delalloc_nocow failed, root=5 inode=32940 start=5222400 len=57344: -5
+[ 8412.603888] BTRFS warning (device dm-0 state EA): direct IO failed ino 33473 op 0x8800 offset 0xda000 len 8192 err no 10
+[ 8412.604203] BTRFS error (device dm-0 state EA): failed to run delalloc range, root=5 ino=32940 folio=5222400 submit_bitmap=0 start=5222400 len=57344: -5
+[ 8412.605046] BTRFS warning (device dm-0 state EA): direct IO failed ino 32892 op 0x8800 offset 0x30d000 len 20480 err no 10
+[ 8412.607710] BTRFS warning (device dm-0 state EA): direct IO failed ino 32593 op 0x8800 offset 0x200000 len 32768 err no 10
+[ 8412.607881] BTRFS warning (device dm-0 state EA): direct IO failed ino 32593 op 0x8800 offset 0x208000 len 4096 err no 10
+[ 8412.608335] BTRFS warning (device dm-0 state EA): direct IO failed ino 33613 op 0x8800 offset 0x245000 len 12288 err no 10
+[ 8412.610615] BTRFS warning (device dm-0 state EA): direct IO failed ino 33462 op 0x8800 offset 0xa7000 len 4096 err no 10
+[ 8412.610699] ------------[ cut here ]------------
+[ 8412.610700] 
+[ 8412.610717] WARNING: CPU: 1 PID: 24520 at fs/btrfs/inode.c:2887 btrfs_writepage_cow_fixup+0x35/0x160 [btrfs]
+[ 8412.610777] Modules linked in: dm_snapshot dm_thin_pool dm_persistent_data dm_bio_prison dm_bufio dm_log_writes dm_dust dm_flakey dm_mod btrfs xor lzo_compress lzo_decompress raid6_pq zstd_decompress zstd_compress zstd_common loop [last unloaded: crc_t10dif]
+[ 8412.610790] CPU: 1 UID: 0 PID: 24520 Comm: kworker/u16:18 Not tainted 6.16.0-default+ #588 PREEMPT(full) 
+[ 8412.610792] Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.3-2-gc13ff2cd-prebuilt.qemu.org 04/01/2014
+[ 8412.610794] Workqueue: writeback wb_workfn (flush-btrfs-3254)
+[ 8412.610798] RIP: 0010:btrfs_writepage_cow_fixup+0x35/0x160 [btrfs]
+[ 8412.610848] Code: 41 55 41 54 55 53 48 8b 47 18 48 89 fb 48 c7 c7 96 50 4f c0 48 8b 28 48 8b 85 18 fc ff ff 4c 8b a0 08 02 00 00 e8 3b 09 cb d8 <0f> 0b e8 24 d2 d4 d8 31 d2 45 31 c9 45 31 c0 48 8d 05 00 00 00 00
+[ 8412.610850] RSP: 0018:ffffb12c4368b740 EFLAGS: 00010282
+[ 8412.610852] RAX: 0000000000000000 RBX: ffffe199047fe4c0 RCX: 0000000000000001
+[ 8412.610853] RDX: 0000000000000000 RSI: ffffffff9937bae9 RDI: 0000000000000001
+[ 8412.610854] RBP: ffff8881cef39ed8 R08: 0000000000000000 R09: 0000000000000000
+[ 8412.610855] R10: ffffffff9937b9ed R11: 0000000000000000 R12: ffff8881da758000
+[ 8412.610856] R13: ffffe199047fe4c0 R14: 0000000000047000 R15: 0000000000001000
+[ 8412.610857] FS:  0000000000000000(0000) GS:ffff88826107c000(0000) knlGS:0000000000000000
+[ 8412.610860] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[ 8412.610861] CR2: 00007f23b99f8000 CR3: 0000000109b87000 CR4: 00000000000006b0
+[ 8412.610863] Call Trace:
+[ 8412.610864]  <TASK>
+[ 8412.610865]  extent_writepage_io+0xdc/0x350 [btrfs]
+[ 8412.610913]  ? lock_release+0xe3/0x140
+[ 8412.610916]  extent_writepage+0x354/0x670 [btrfs]
+[ 8412.610967] BTRFS warning (device dm-0 state EA): direct IO failed ino 32637 op 0x8800 offset 0x8b000 len 36864 err no 10
+[ 8412.610959]  extent_write_cache_pages+0x15c/0x510 [btrfs]
+[ 8412.611001]  ? set_extent_bit+0x238/0x840 [btrfs]
+[ 8412.611046]  ? lock_acquire+0xea/0x130
+[ 8412.611049]  btrfs_writepages+0x6c/0x120 [btrfs]
+[ 8412.611095]  do_writepages+0xab/0x130
+[ 8412.611098]  ? ret_from_fork+0x11a/0x170
+[ 8412.611101]  ? ret_from_fork_asm+0x11/0x20
+[ 8412.611105]  __writeback_single_inode+0x51/0x380
+[ 8412.611107]  writeback_sb_inodes+0x21b/0x570
+[ 8412.611109]  ? lock_acquire+0xea/0x130
+[ 8412.611111]  ? btrfs_add_ordered_sum+0x2b/0x70 [btrfs]
+[ 8412.612199] BTRFS warning (device dm-0 state EA): direct IO failed ino 33641 op 0x8800 offset 0x102000 len 12288 err no 10
+[ 8412.612226]  wb_writeback+0xcf/0x450
+[ 8412.613228] BTRFS warning (device dm-0 state EA): direct IO failed ino 32879 op 0x8800 offset 0x1f7000 len 4096 err no 10
+[ 8412.613374]  wb_do_writeback+0x41/0x2c0
+[ 8412.615005] BTRFS warning (device dm-0 state EA): direct IO failed ino 32879 op 0x8800 offset 0x1e6000 len 69632 err no 10
+[ 8412.615670] BTRFS warning (device dm-0 state EA): direct IO failed ino 33067 op 0x8800 offset 0x1f8000 len 65536 err no 10
+[ 8412.615682] BTRFS warning (device dm-0 state EA): direct IO failed ino 33067 op 0x8800 offset 0x20c000 len 4096 err no 10
+[ 8412.615717]  ? set_worker_desc+0xb6/0xc0
+[ 8412.615961] BTRFS warning (device dm-0 state EA): direct IO failed ino 32851 op 0x8800 offset 0x130000 len 4096 err no 10
+[ 8412.616059] BTRFS warning (device dm-0 state EA): direct IO failed ino 33722 op 0x8800 offset 0x1f000 len 20480 err no 10
+[ 8412.616591] BTRFS warning (device dm-0 state EA): direct IO failed ino 33255 op 0x8800 offset 0x78000 len 94208 err no 10
+[ 8412.616918]  wb_workfn+0x53/0x1e0
+[ 8412.617339] BTRFS warning (device dm-0 state EA): direct IO failed ino 33255 op 0x8800 offset 0x8f000 len 4096 err no 10
+[ 8412.618389] BTRFS warning (device dm-0 state EA): direct IO failed ino 32940 op 0x8800 offset 0x316000 len 8192 err no 10
+[ 8412.618710] BTRFS warning (device dm-0 state EA): direct IO failed ino 33467 op 0x8800 offset 0x2a000 len 32768 err no 10
+[ 8412.618815]  process_one_work+0x231/0x5d0
+[ 8412.619221] BTRFS warning (device dm-0 state EA): direct IO failed ino 33282 op 0x8800 offset 0x738000 len 28672 err no 10
+[ 8412.619668]  worker_thread+0x1d1/0x3c0
+[ 8412.620920] BTRFS warning (device dm-0 state EA): direct IO failed ino 32685 op 0x8800 offset 0xf000 len 8192 err no 10
+[ 8412.620962]  ? bh_worker+0x260/0x260
+[ 8412.622040] BTRFS warning (device dm-0 state EA): direct IO failed ino 33517 op 0x8800 offset 0x86000 len 20480 err no 10
+[ 8412.622184]  kthread+0xfa/0x210
+[ 8412.622795] BTRFS warning (device dm-0 state EA): direct IO failed ino 33138 op 0x8800 offset 0x86000 len 32768 err no 10
+[ 8412.623066]  ? kthread_fetch_affinity.isra.0+0x30/0x30
+[ 8412.623766] BTRFS warning (device dm-0 state EA): direct IO failed ino 32720 op 0x8800 offset 0x149000 len 4096 err no 10
+[ 8412.623836]  ret_from_fork+0x11a/0x170
+[ 8412.624773] BTRFS warning (device dm-0 state EA): direct IO failed ino 33097 op 0x8800 offset 0x1fb000 len 16384 err no 10
+[ 8412.624963]  ? kthread_fetch_affinity.isra.0+0x30/0x30
+[ 8412.626351] BTRFS warning (device dm-0 state EA): direct IO failed ino 33895 op 0x8800 offset 0xa6000 len 73728 err no 10
+[ 8412.626401] BTRFS warning (device dm-0 state EA): direct IO failed ino 32572 op 0x8800 offset 0x28c000 len 40960 err no 10
+[ 8412.626623]  ret_from_fork_asm+0x11/0x20
+[ 8412.626884] BTRFS warning (device dm-0 state EA): direct IO failed ino 33606 op 0x8800 offset 0x4b000 len 4096 err no 10
+[ 8412.627111]  </TASK>
+[ 8412.629006] BTRFS warning (device dm-0 state EA): direct IO failed ino 32775 op 0x8800 offset 0x8a000 len 4096 err no 10
+[ 8412.629024] irq event stamp: 0
+[ 8412.629183] BTRFS warning (device dm-0 state EA): direct IO failed ino 32862 op 0x8800 offset 0xdc000 len 12288 err no 10
+[ 8412.629831] BTRFS warning (device dm-0 state EA): direct IO failed ino 33467 op 0x8800 offset 0x11f000 len 4096 err no 10
+[ 8412.630054] hardirqs last  enabled at (0): [<0000000000000000>] 0x0
+[ 8412.631582] BTRFS warning (device dm-0 state EA): direct IO failed ino 32823 op 0x8800 offset 0x1d8000 len 32768 err no 10
+[ 8412.631741] hardirqs last disabled at (0): [<ffffffff992faf8a>] copy_process+0x78a/0x1680
+[ 8412.632148] BTRFS warning (device dm-0 state EA): direct IO failed ino 33296 op 0x8800 offset 0x168000 len 8192 err no 10
+[ 8412.632690] softirqs last  enabled at (0): [<ffffffff992faf8a>] copy_process+0x78a/0x1680
+[ 8412.634007] BTRFS warning (device dm-0 state EA): direct IO failed ino 32713 op 0x8800 offset 0x11e000 len 28672 err no 10
+[ 8412.634009] BTRFS warning (device dm-0 state EA): direct IO failed ino 32862 op 0x8800 offset 0x85f000 len 32768 err no 10
+[ 8412.634091] softirqs last disabled at (0): [<0000000000000000>] 0x0
+[ 8412.634107] BTRFS warning (device dm-0 state EA): direct IO failed ino 32966 op 0x8800 offset 0x21f000 len 16384 err no 10
+[ 8412.634807] BTRFS warning (device dm-0 state EA): direct IO failed ino 32952 op 0x8800 offset 0x482000 len 4096 err no 10
+[ 8412.635118] ---[ end trace 0000000000000000 ]---
+[ 8412.636903] BTRFS warning (device dm-0 state EA): direct IO failed ino 33238 op 0x8800 offset 0x53000 len 16384 err no 10
+[ 8412.636918] BTRFS warning (device dm-0 state EA): direct IO failed ino 33606 op 0x8800 offset 0x4b000 len 8192 err no 10
+[ 8412.637114] BTRFS warning (device dm-0 state EA): direct IO failed ino 33663 op 0x8800 offset 0x1c9000 len 8192 err no 10
+[ 8412.637244] BTRFS error (device dm-0 state EA): root 5 ino 32764 folio 290816 is marked dirty without notifying the fs
+[ 8412.637904] BTRFS warning (device dm-0 state EA): direct IO failed ino 33589 op 0x8800 offset 0x6b000 len 28672 err no 10
+[ 8412.638667] BTRFS warning (device dm-0 state EA): direct IO failed ino 33610 op 0x8800 offset 0x52000 len 81920 err no 10
+[ 8412.638791] BTRFS error (device dm-0 state EA): failed to submit blocks, root=5 inode=32764 folio=290816 submit_bitmap=0: -117
